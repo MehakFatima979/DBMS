@@ -53,20 +53,25 @@
     </a>
     <!-- Header Navbar: style can be found in header.less -->
     <nav class="navbar navbar-static-top">
+         <%--<AnonymousTemplate>--%>
+                            <ul class="nav navbar-nav navbar-right">
+                                <li><a runat="server" href="Main.aspx">Home</a></li>
+                                <li><a runat="server" href="Main.aspx">Sign Out</a></li>
+                            </ul>
+<%--                        </AnonymousTemplate>--%>
       
 
       
-                        
-                   
+                
          
               
           <!-- Control Sidebar Toggle Button -->
-          <li>
-            <a href="#" data-toggle="control-sidebar"><i class="fa fa-gears"></i></a>
-          </li>
+         <%-- <li>
+            <%--<a href="#" data-toggle="control-sidebar"><i class="fa fa-gears"></i></a>--%>
+          <%--</li>
               <li></li>
         </ul>
-      </div>
+      </div>--%>
     </nav>
   </header>
 

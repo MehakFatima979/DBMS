@@ -1,9 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Medicies.aspx.cs" Inherits="WebApplication4.Medicies" %>
-
-
-
-
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html>
 <head>
   <meta charset="utf-8">
@@ -54,7 +49,7 @@
       <!-- mini logo for sidebar mini 50x50 pixels -->
       <span class="logo-mini"><b>A</b>LT</span>
       <!-- logo for regular state and mobile devices -->
-      <span class="logo-lg"><b><center>User</center></b></span>
+     <%-- <span class="logo-lg"><b><center>Admin</center></b></span>--%>
 
         
     </a>
@@ -63,7 +58,7 @@
          <%--<AnonymousTemplate>--%>
                             <ul class="nav navbar-nav navbar-right">
                                 <li><a runat="server" href="Main.aspx">Home</a></li>
-                                <li><a runat="server" href="Main.aspx">Sign Out</a></li>
+                                <li><a runat="server" href="~/Account/Login">Sign In</a></li>
                             </ul>
 <%--                        </AnonymousTemplate>--%>
       
@@ -87,22 +82,33 @@
 
 </head>
 <body class="hold-transition skin-blue sidebar-mini">
-<aside class="main-sidebar">
+    
+
+    <div align="center" >
+        <h1><b><u>E-Medicine Store</u></b></h1>
+    </div>
+
+    <div align="center" >
+         <img src="pharmacy.jpg" / style="width:900px;height:600px" align="middle";>
+    </div>
+   
+
+<%--<aside class="main-sidebar">--%>
     <!-- sidebar: style can be found in sidebar.less -->
-    <section class="sidebar" style="height: auto;">
+   <%-- <section class="sidebar" style="height: auto;">
       <!-- Sidebar user panel -->
       <div class="user-panel">
-        
+        --%>
           
        
-      </div>
+     <%-- </div>--%>
       <!-- search form -->
 
      
        
       <!-- /.search form -->
       <!-- sidebar menu: : style can be found in sidebar.less -->
-      <ul class="sidebar-menu tree" data-widget="tree">
+     <%-- <ul class="sidebar-menu tree" data-widget="tree">--%>
         <%--<li class="header">MAIN NAVIGATION</li>
         <li class="treeview">
           <a href="#">
@@ -151,9 +157,9 @@
           </ul>
         </li>--%>
 
-          <li><a href="Staff.aspx"><i class="fa fa-search"></i> <span>Search Medicines</span></a></li>
-          <li><a href="Attendance.aspx"><i class="fa fa-book"></i> <span>Medicines Detail</span></a></li>
-         
+<%--          <li><a href="Staff.aspx"><i class="fa fa-book"></i> <span>Staff</span></a></li>
+          <li><a href="Attendance.aspx"><i class="fa fa-book"></i> <span>Attendance</span></a></li>
+
 
         <li class="treeview active menu-open">
           <a href="#">
@@ -163,13 +169,7 @@
             </span>
           </a>
           <ul class="treeview-menu">
-            <li><a href="Staff Details.aspx"><i class="fa fa-circle-o"></i> Profit or Loss</a></li>
-                <li><a href="Staff Details.aspx"><i class="fa fa-circle-o"></i> Sold Medicines daily</a></li>
-                <li><a href="Staff Details.aspx"><i class="fa fa-circle-o"></i> Expiry Medicines</a></li>
-                <li><a href="Staff Details.aspx"><i class="fa fa-circle-o"></i> Remaining Medicines Stock</a></li>
-                <li><a href="Staff Details.aspx"><i class="fa fa-circle-o"></i> Excessively Medicines Sold</a></li>
-               <li><a href="Staff Details.aspx"><i class="fa fa-circle-o"></i> Sold Medicines Weekely</a></li>
-               <li><a href="Staff Details.aspx"><i class="fa fa-circle-o"></i> Sold Medicines Yearly</a></li>
+            <li><a href="Staff Details.aspx"><i class="fa fa-circle-o"></i> Staff Details</a></li>--%>
             <%--<li class="active"><a href="advanced.html"><i class="fa fa-circle-o"></i> Advanced Elements</a></li>
             <li><a href="editors.html"><i class="fa fa-circle-o"></i> Editors</a></li>--%>
           </ul>
@@ -275,228 +275,20 @@
         <li><a href="#"><i class="fa fa-circle-o text-red"></i> <span>Important</span></a></li>
         <li><a href="#"><i class="fa fa-circle-o text-yellow"></i> <span>Warning</span></a></li>
         <li><a href="#"><i class="fa fa-circle-o text-aqua"></i> <span>Information</span></a></li>--%>
-      </ul>
-    </section>
+    <%--  </ul>
+    </section>--%>
     <!-- /.sidebar -->
-  </aside>
+  <%--</aside>--%>
    
 
-    
 
 
-     <div class="content-wrapper">
-    <!-- Content Header (Page header) -->
-    <section class="content-header">
-      <h1>
-        <b>Medicines</b>
-        
-      </h1>
-      
-    </section>
 
-    <!-- Main content -->
-    <section class="content">
-      <div class="row">
-        <!-- left column -->
-        <div class="col-md-6">
-          <!-- general form elements -->
-          <div class="box box-primary">
-            
-            <!-- /.box-header -->
-            <!-- form start -->
-            </div>
-              <div class="box-body">
-                
-                <div class="form-group">
-                  <label for="exampleInputEmail1">Name</label>
-                  <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter name">
-                </div>
-
-                <div class="form-group">
-                  <label for="exampleInputEmail1">Composition</label>
-                  <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter composition">
-                </div>
-
-                  
-                <div class="form-group">
-                  <label for="exampleInputEmail1">Description</label>
-                  <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter description">
-                </div>
-
-                  
-                <div class="form-group">
-                  <label for="exampleInputEmail1">Side Effects</label>
-                  <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter sideeffect">
-                </div>
-                <div class="form-group">
-                  <label for="exampleInputPassword1">Company</label>
-                  <input type="password" class="form-control" id="exampleInputPassword1" placeholder="enter company">
-                </div>
-                  
-                <div class="form-group">
-                  <label for="exampleInputEmail1">Medicine Code</label>
-                  <input type="email" class="form-control" id="exampleInputEmail1" placeholder="">
-                </div>
-
-                  
-           <%--    <div class="form-group">
-                  <label>Select gender</label>
-                  <select class="form-control">
-                    <option>male</option>
-                    <option>female</option>
-                    
-                  </select>
-                </div>--%>
-
-                  <div class="form-group">
-                  <label for="exampleInputEmail1">Purchase Price</label>
-                  <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter price">
-                </div>
-
-                  <div class="form-group">
-                  <label for="exampleInputEmail1">Quantity</label>
-                  <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter total quantity">
-                </div>
-
-                  <div class="form-group">
-                  <label for="exampleInputEmail1">Alert Quantity</label>
-                  <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter alert quantity">
-                </div>
-                      <div class="form-group">
-                <label>Created Date</label>
-
-                <div class="input-group date">
-                  <div class="input-group-addon">
-                    <i class="fa fa-calendar"></i>
-                  </div>
-                  <input type="text" class="form-control pull-right" id="datepicker">
-                </div>
-                <!-- /.input group -->
-              </div>
-                       <div class="form-group">
-                <label> Purchase Date</label>
-
-                <div class="input-group date">
-                  <div class="input-group-addon">
-                    <i class="fa fa-calendar"></i>
-                  </div>
-                  <input type="text" class="form-control pull-right" id="datepicker">
-                </div>
-                <!-- /.input group -->
-              </div>
-              
-              <!-- /.box-body -->
-
-              <div class="box-footer">
-                <button type="submit" class="btn btn-primary">Add</button>
-                  <button type="submit" class="btn btn-primary">Update</button>
-                  <button type="submit" class="btn btn-primary">Delete</button>
-
-                 <%-- <asp:Table ID="Table1" runat="server" Height="31px" Width="351px">
-                      <asp:TableRow runat="server">
-                      </asp:TableRow>
-                      <asp:TableRow runat="server">
-                      </asp:TableRow>
-                  </asp:Table>--%>
-              </div>
-
-
-          <section class="content">
-      <div class="row">
-        <!-- left column -->
-        <div class="col-md-12">
-          <!-- general form elements -->
-          <div class="box box-primary">
-            
-            <!-- /.box-header -->
-            <!-- form start -->
-            </div>
-              <div class="box-body">
-                
-               
-                  <%-- <asp:Table ID="Table1" runat="server" Height="31px" Width="351px">
-                      <asp:TableRow runat="server">
-                      </asp:TableRow>
-                      <asp:TableRow runat="server">
-                      </asp:TableRow>
-                  </asp:Table>--%>
-
-              
-                       
-                <div class="form-group">
-                    <asp:Table ID="Table1" runat="server" Height="100px" Width="1000px">
-                        <asp:TableRow >
-                            
-                                 <asp:TableCell ><b>Sr.#</b></asp:TableCell>
-                                <asp:TableCell ><b>Name</b></asp:TableCell>
-                                <asp:TableCell ><b>Composition</b></asp:TableCell>
-                                <asp:TableCell ><b>Description</b></asp:TableCell>
-                                 <asp:TableCell ><b>SideEffects</b></asp:TableCell>
-                                <asp:TableCell ><b>Company</b></asp:TableCell>
-                                 <asp:TableCell ><b>Medicines Code</b></asp:TableCell>
-
-                                 <asp:TableCell ><b>Alert Quantity</b></asp:TableCell>
-                                    <asp:TableCell ><b>Total Quantity</b></asp:TableCell>
-                                     <asp:TableCell ><b>Purchase Date</b></asp:TableCell>
-                                   <asp:TableCell ><b>Created Date</b></asp:TableCell>
-                                <asp:TableCell ><b>Purchase Price</b></asp:TableCell>
-
-                            
-                        </asp:TableRow>
-            
-           <%-- <asp:TableRow runat="server">
-                <asp:TableCell runat="server"></asp:TableCell>
-                <asp:TableCell runat="server"></asp:TableCell>
-                <asp:TableCell runat="server"></asp:TableCell>
-            </asp:TableRow>
-            <asp:TableRow runat="server">
-                <asp:TableCell runat="server"></asp:TableCell>
-                <asp:TableCell runat="server"></asp:TableCell>
-                <asp:TableCell runat="server"></asp:TableCell>
-            </asp:TableRow>--%>
-        </asp:Table>
-                    </div>
-                  
-               
-
-                  
-                
-                
-
-               
-
-                 
-               
-              
-              <!-- /.box-body -->
-
-             <%-- <div class="box-footer">
-                <button type="submit" class="btn btn-primary">Submit</button>--%>
-                 <%-- <asp:Table ID="Table1" runat="server" Height="31px" Width="351px">
-                      <asp:TableRow runat="server">
-                      </asp:TableRow>
-                      <asp:TableRow runat="server">
-                      </asp:TableRow>
-                  </asp:Table>--%>
-            <%--  </div>--%>
-                
-<%--<div class="form-group">
-<asp:GridView ID="GridView1" runat="server"></asp:GridView>
-   </div>--%>
-
-           
 
     <p>
         &nbsp;</p>
     </form>
-   </form>
-          </div>
-            </div>
-          </div>
-        </section>
 
   
 </body>
 </html>
-
-

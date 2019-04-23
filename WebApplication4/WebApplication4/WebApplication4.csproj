@@ -246,9 +246,11 @@
     <Content Include="fonts\index2.html" />
     <Content Include="fonts\starter.html" />
     <Content Include="general.html" />
+    <Content Include="Main.aspx" />
     <Content Include="Medicies.aspx" />
     <Content Include="Medicine-Yearly.aspx" />
     <Content Include="Medicines-Weekly.aspx" />
+    <Content Include="pharmacy.jpg" />
     <Content Include="Pharmasist.aspx" />
     <Content Include="Profit.aspx" />
     <Content Include="Scripts\ai.0.22.9-build00167.js" />
@@ -287,6 +289,7 @@
     <Content Include="Global.asax" />
     <Content Include="Search.aspx" />
     <Content Include="Sell Medicines.aspx" />
+    <Content Include="Sign In.aspx" />
     <Content Include="Site.Master" />
     <Content Include="Sold-Medicines.aspx" />
     <Content Include="Staff Details.aspx" />
@@ -475,6 +478,13 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Main.aspx.cs">
+      <DependentUpon>Main.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Main.aspx.designer.cs">
+      <DependentUpon>Main.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Medicies.aspx.cs">
       <DependentUpon>Medicies.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -525,6 +535,13 @@
     </Compile>
     <Compile Include="Sell Medicines.aspx.designer.cs">
       <DependentUpon>Sell Medicines.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Sign In.aspx.cs">
+      <DependentUpon>Sign In.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Sign In.aspx.designer.cs">
+      <DependentUpon>Sign In.aspx</DependentUpon>
     </Compile>
     <Compile Include="Site.Master.cs">
       <DependentUpon>Site.Master</DependentUpon>
