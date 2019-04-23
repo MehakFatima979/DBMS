@@ -1,4 +1,7 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Excessively.aspx.cs" Inherits="WebApplication4.Excessively" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="invoice.aspx.cs" Inherits="WebApplication4.invoice" %>
+
+
+
 
 
 
@@ -66,11 +69,11 @@
     <!-- Header Navbar: style can be found in header.less -->
     <nav class="navbar navbar-static-top">
       
-         <ul class="nav navbar-nav navbar-right">
+
+       <ul class="nav navbar-nav navbar-right">
                                 <li><a runat="server" href="Main.aspx">Home</a></li>
                                 <li><a runat="server" href="Main.aspx">Sign Out</a></li>
                             </ul>
-      
                 
          
               
@@ -153,9 +156,8 @@
           </ul>
         </li>--%>
 
-          <li><a href="Staff.aspx"><i class="fa fa-search"></i> <span>Search Medicines</span></a></li>
-          <li><a href="Attendance.aspx"><i class="fa fa-book"></i> <span>Medicines Detail</span></a></li>
-         
+            <li><a href="Search.aspx"><i class="fa fa-search"></i> <span>Search Medicines</span></a></li>
+          <li><a href="Sell Medicines.aspx"><i class="fa fa-book"></i> <span>Medicines Detail</span></a></li>
 
         <li class="treeview active menu-open">
           <a href="#">
@@ -172,7 +174,6 @@
                 <li><a href="Excessively.aspx"><i class="fa fa-circle-o"></i> Excessively Medicines Sold</a></li>
                <li><a href="Medicines-Weekly.aspx"><i class="fa fa-circle-o"></i> Sold Medicines Weekely</a></li>
                <li><a href="Medicine-Yearly.aspx"><i class="fa fa-circle-o"></i> Sold Medicines Yearly</a></li>
-            <%--<li class="active"><a href="advanced.html"><i class="fa fa-circle-o"></i> Advanced Elements</a></li>
             <li><a href="editors.html"><i class="fa fa-circle-o"></i> Editors</a></li>--%>
           </ul>
              <li><a href="invoice.aspx"><i class=" fa-credit-card"></i> <span>Invoice</span></a></li>
@@ -291,7 +292,7 @@
     <!-- Content Header (Page header) -->
     <section class="content-header">
       <h1>
-        <b>Search</b>
+        <b><center>Invoice</center></b>
         
       </h1>
       
@@ -346,23 +347,43 @@
                       </asp:TableRow>
                   </asp:Table>--%>
 
-              
+               <div class="form-group">
+                    <asp:Table ID="Table1" runat="server" Height="100px" Width="1000px">
+                        <asp:TableRow >
+                            
+                                 <asp:TableCell ><b>Invoice No</b></asp:TableCell>
+                                 <asp:TableCell ><b>Date</b></asp:TableCell>
+
+                            
+                        </asp:TableRow>
+            
+           <%-- <asp:TableRow runat="server">
+                <asp:TableCell runat="server"></asp:TableCell>
+                <asp:TableCell runat="server"></asp:TableCell>
+                <asp:TableCell runat="server"></asp:TableCell>
+            </asp:TableRow>
+            <asp:TableRow runat="server">
+                <asp:TableCell runat="server"></asp:TableCell>
+                <asp:TableCell runat="server"></asp:TableCell>
+                <asp:TableCell runat="server"></asp:TableCell>
+            </asp:TableRow>--%>
+        </asp:Table>
+                    </div>
                        
                 <div class="form-group">
                     <asp:Table ID="Table2" runat="server" Height="100px" Width="1000px">
                         <asp:TableRow >
                             
-                                 <asp:TableCell ><b>Sr.#</b></asp:TableCell>
-                                <asp:TableCell ><b>Name</b></asp:TableCell>
+                                 <asp:TableCell ><b>ProductId</b></asp:TableCell>
+                                <asp:TableCell ><b>Medicine Name</b></asp:TableCell>
                                 
-                                <asp:TableCell ><b>Company</b></asp:TableCell>
-                                 <asp:TableCell ><b>Medicines Code</b></asp:TableCell>
+                                <asp:TableCell ><b>Medicine Code</b></asp:TableCell>
+                                 <asp:TableCell ><b>Unit Price</b></asp:TableCell>
 
                                 
-                                    <asp:TableCell ><b>Total Quantity</b></asp:TableCell>
-                                     <asp:TableCell ><b>Remaining Quantity</b></asp:TableCell>
-                                   <asp:TableCell ><b>Sale Quantity</b></asp:TableCell>
-                                <asp:TableCell ><b>Purchase Price</b></asp:TableCell>
+                                    
+                                     <asp:TableCell ><b>Tax</b></asp:TableCell>
+                                 <asp:TableCell ><b>Total Quantity</b></asp:TableCell>
 
                             
                         </asp:TableRow>
@@ -381,7 +402,29 @@
                     </div>
                   
                
-
+                   <div class="form-group">
+                    <asp:Table ID="Table3" runat="server" Height="100px" Width="1000px">
+                        <asp:TableRow >
+                            
+                                 <asp:TableCell ><b>Total Price</b></asp:TableCell>
+                                
+                               
+                            
+                        </asp:TableRow>
+            
+           <%-- <asp:TableRow runat="server">
+                <asp:TableCell runat="server"></asp:TableCell>
+                <asp:TableCell runat="server"></asp:TableCell>
+                <asp:TableCell runat="server"></asp:TableCell>
+            </asp:TableRow>
+            <asp:TableRow runat="server">
+                <asp:TableCell runat="server"></asp:TableCell>
+                <asp:TableCell runat="server"></asp:TableCell>
+                <asp:TableCell runat="server"></asp:TableCell>
+            </asp:TableRow>--%>
+        </asp:Table>
+                    </div>
+                       
                   
                 
                 

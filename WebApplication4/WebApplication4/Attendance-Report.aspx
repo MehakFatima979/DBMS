@@ -1,4 +1,6 @@
-﻿<!DOCTYPE html>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Attendance-Report.aspx.cs" Inherits="WebApplication4.Attendance_Report" %>
+
+<!DOCTYPE html>
 <html>
 <head>
   <meta charset="utf-8">
@@ -164,62 +166,15 @@
         </li>
 
 
-        <%--<li class="treeview">
-          <a href="#">
-            <i class="fa fa-table"></i> <span>Tables</span>
-            <span class="pull-right-container">
-              <i class="fa fa-angle-left pull-right"></i>
-            </span>
-          </a>
-          <ul class="treeview-menu">
-            <li><a href="../tables/simple.html"><i class="fa fa-circle-o"></i> Simple tables</a></li>
-            <li><a href="../tables/data.html"><i class="fa fa-circle-o"></i> Data tables</a></li>
-          </ul>
-        </li>--%>
+       
+
+      
 
 
-        <%--<li>
-          <a href="../calendar.html">
-            <i class="fa fa-calendar"></i> <span>Calendar</span>
-            <span class="pull-right-container">
-              <small class="label pull-right bg-red">3</small>
-              <small class="label pull-right bg-blue">17</small>
-            </span>
-          </a>
-        </li>--%>
+       
 
 
-       <%-- <li>
-          <a href="../mailbox/mailbox.html">
-            <i class="fa fa-envelope"></i> <span>Mailbox</span>
-            <span class="pull-right-container">
-              <small class="label pull-right bg-yellow">12</small>
-              <small class="label pull-right bg-green">16</small>
-              <small class="label pull-right bg-red">5</small>
-            </span>
-          </a>
-        </li>--%>
-
-
-        <%--<li class="treeview">
-          <a href="#">
-            <i class="fa fa-folder"></i> <span>Examples</span>
-            <span class="pull-right-container">
-              <i class="fa fa-angle-left pull-right"></i>
-            </span>
-          </a>
-          <ul class="treeview-menu">
-            <li><a href="../examples/invoice.html"><i class="fa fa-circle-o"></i> Invoice</a></li>
-            <li><a href="../examples/profile.html"><i class="fa fa-circle-o"></i> Profile</a></li>
-            <li><a href="../examples/login.html"><i class="fa fa-circle-o"></i> Login</a></li>
-            <li><a href="../examples/register.html"><i class="fa fa-circle-o"></i> Register</a></li>
-            <li><a href="../examples/lockscreen.html"><i class="fa fa-circle-o"></i> Lockscreen</a></li>
-            <li><a href="../examples/404.html"><i class="fa fa-circle-o"></i> 404 Error</a></li>
-            <li><a href="../examples/500.html"><i class="fa fa-circle-o"></i> 500 Error</a></li>
-            <li><a href="../examples/blank.html"><i class="fa fa-circle-o"></i> Blank Page</a></li>
-            <li><a href="../examples/pace.html"><i class="fa fa-circle-o"></i> Pace Page</a></li>
-          </ul>
-        </li>--%>
+       
 
 
        <%-- <li class="treeview">
@@ -268,17 +223,24 @@
     <!-- /.sidebar -->
   </aside>
     
-    
+   
 
 
     <!-- Content Wrapper. Contains page content -->
-  <div class="content-wrapper">
+   <div class="content-wrapper">
     <!-- Content Header (Page header) -->
     <section class="content-header">
       <h1>
-       <b> Attendance</b>
+        <b>Staff Details</b>
         
       </h1>
+        <ol class="breadcrumb">
+       <%-- <li><a href="#"><i class="fa fa-dashboard"></i> Home</a></li>--%>
+         <li><button type="submit" class="btn btn-primary">Generate Pdf</button></li>
+       
+      </ol>
+
+      
       
     </section>
 
@@ -286,7 +248,7 @@
     <section class="content">
       <div class="row">
         <!-- left column -->
-        <div class="col-md-6">
+        <div class="col-md-12">
           <!-- general form elements -->
           <div class="box box-primary">
             
@@ -294,70 +256,75 @@
             <!-- form start -->
             </div>
               <div class="box-body">
-                
-                  <div class="form-group">
-                  <label for="exampleInputEmail1">Name</label>
-                  <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter name">
-                </div>
+                  <div class="input-group">
+          <input type="text" name="q" class="form-control" placeholder="Search...">
+          <span class="input-group-btn">
+                <button type="submit" name="search" id="search-btn" class="btn btn-flat"><i class="fa fa-search"></i>
+                </button>
+              </span>
+        </div>
+               
+                  <%-- <asp:Table ID="Table1" runat="server" Height="31px" Width="351px">
+                      <asp:TableRow runat="server">
+                      </asp:TableRow>
+                      <asp:TableRow runat="server">
+                      </asp:TableRow>
+                  </asp:Table>--%>
 
-                
-               <div class="form-group">
-                <label>Date:</label>
+              
+                       
+                <div class="form-group">
+                    <asp:Table ID="Table2" runat="server" Height="100px" Width="1200px">
+                        <asp:TableRow >
+                            
+                                 <asp:TableCell ><b>Sr.#</b></asp:TableCell>
+                                <asp:TableCell ><b>Name</b></asp:TableCell>
+                                <asp:TableCell ><b>Address</b></asp:TableCell>
+                                <asp:TableCell ><b>Phone#</b></asp:TableCell>
+                                 <asp:TableCell ><b>Pharmacy</b></asp:TableCell>
+                                 <asp:TableCell ><b>Total Days</b></asp:TableCell>
+                                 <asp:TableCell ><b>Present Days</b></asp:TableCell>
+                                 <asp:TableCell ><b>Absent Days</b></asp:TableCell>
+                                   
 
-                <div class="input-group date">
-                  <div class="input-group-addon">
-                    <i class="hasDatepicker"></i>
-                  </div>
-                  <input type="date" class="form-control pull-right" id="datepicker">
-                </div>
-                <!-- /.input group -->
-              </div>
-                  
-                
+                            
+                        </asp:TableRow>
             
-                  
-                
-                
+           <%-- <asp:TableRow runat="server">
+                <asp:TableCell runat="server"></asp:TableCell>
+                <asp:TableCell runat="server"></asp:TableCell>
+                <asp:TableCell runat="server"></asp:TableCell>
+            </asp:TableRow>
+            <asp:TableRow runat="server">
+                <asp:TableCell runat="server"></asp:TableCell>
+                <asp:TableCell runat="server"></asp:TableCell>
+                <asp:TableCell runat="server"></asp:TableCell>
+            </asp:TableRow>--%>
+        </asp:Table>
+                    </div>
                   
                
 
                   
-               <div class="form-group">
-                  <label>Attendance</label>
-                  <select class="form-control">
-                    <option>Present</option>
-                    <option>Absent</option>
-                    
-                  </select>
-                </div>
+                
+                
 
-                  
+               
 
+                 
                
               
               <!-- /.box-body -->
 
-              <div class="box-footer">
-                <button type="submit" class="btn btn-primary">Record Saved</button>
-              </div>
-               
-                  
-               
-                  
-               
-
-               
-            
-
-              <%--<div class="box-footer">
-                <button type="submit" class="btn btn-primary">Submit</button>
+             <%-- <div class="box-footer">
+                <button type="submit" class="btn btn-primary">Submit</button>--%>
                  <%-- <asp:Table ID="Table1" runat="server" Height="31px" Width="351px">
                       <asp:TableRow runat="server">
                       </asp:TableRow>
                       <asp:TableRow runat="server">
                       </asp:TableRow>
                   </asp:Table>--%>
-             <%-- <%--</div>--%>
+            <%--  </div>--%>
                 
 <%--<div class="form-group">
 <asp:GridView ID="GridView1" runat="server"></asp:GridView>
@@ -726,6 +693,19 @@
     reserved.
   </footer>--%>
 
+
+    <!-- Main content -->
+   
+  <%--</div>--%>
+  <!-- /.content-wrapper -->
+ <%-- <footer class="main-footer">
+    <div class="pull-right hidden-xs">
+      <b>Version</b> 2.4.0
+    </div>
+    <strong>Copyright &copy; 2014-2016 <a href="https://adminlte.io">Almsaeed Studio</a>.</strong> All rights
+    reserved.
+  </footer>--%>
+
   <!-- Control Sidebar -->
   <aside class="control-sidebar control-sidebar-dark">
     <!-- Create the tabs -->
@@ -915,6 +895,13 @@
       <!-- /.tab-pane -->
     </div>
   </aside>
+
+
+
+      
+
+    <!-- Main content -->
+  
   <!-- /.control-sidebar -->
   <!-- Add the sidebar's background. This div must be placed
        immediately after the control sidebar -->

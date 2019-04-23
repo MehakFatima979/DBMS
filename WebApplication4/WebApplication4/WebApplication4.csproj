@@ -200,6 +200,7 @@
     <Content Include="Account\VerifyPhoneNumber.aspx" />
     <Content Include="Add.aspx" />
     <Content Include="Alert.aspx" />
+    <Content Include="Attendance-Report.aspx" />
     <Content Include="Attendance.aspx" />
     <Content Include="Contact.aspx" />
     <Content Include="Content\bootstrap.css" />
@@ -246,6 +247,7 @@
     <Content Include="fonts\index2.html" />
     <Content Include="fonts\starter.html" />
     <Content Include="general.html" />
+    <Content Include="invoice.aspx" />
     <Content Include="Main.aspx" />
     <Content Include="Medicies.aspx" />
     <Content Include="Medicine-Yearly.aspx" />
@@ -440,6 +442,13 @@
     <Compile Include="App_Start\IdentityConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\Startup.Auth.cs" />
+    <Compile Include="Attendance-Report.aspx.cs">
+      <DependentUpon>Attendance-Report.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Attendance-Report.aspx.designer.cs">
+      <DependentUpon>Attendance-Report.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Attendance.aspx.cs">
       <DependentUpon>Attendance.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -477,6 +486,13 @@
     </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="invoice.aspx.cs">
+      <DependentUpon>invoice.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="invoice.aspx.designer.cs">
+      <DependentUpon>invoice.aspx</DependentUpon>
     </Compile>
     <Compile Include="Main.aspx.cs">
       <DependentUpon>Main.aspx</DependentUpon>
@@ -598,8 +614,11 @@
     <Folder Include="App_Data\" />
     <Folder Include="fonts\bower_components\" />
     <Folder Include="fonts\build\" />
+    <Folder Include="fonts\css\" />
     <Folder Include="fonts\dist\" />
     <Folder Include="fonts\documentation\" />
+    <Folder Include="fonts\images\" />
+    <Folder Include="fonts\js\" />
     <Folder Include="fonts\pages\" />
     <Folder Include="fonts\plugins\" />
   </ItemGroup>

@@ -151,9 +151,8 @@
           </ul>
         </li>--%>
 
-          <li><a href="Staff.aspx"><i class="fa fa-search"></i> <span>Search Medicines</span></a></li>
-          <li><a href="Attendance.aspx"><i class="fa fa-book"></i> <span>Medicines Detail</span></a></li>
-         
+            <li><a href="Search.aspx"><i class="fa fa-search"></i> <span>Search Medicines</span></a></li>
+          <li><a href="Sell Medicines.aspx"><i class="fa fa-book"></i> <span>Medicines Detail</span></a></li>
 
         <li class="treeview active menu-open">
           <a href="#">
@@ -163,16 +162,17 @@
             </span>
           </a>
           <ul class="treeview-menu">
-            <li><a href="Staff Details.aspx"><i class="fa fa-circle-o"></i> Profit or Loss</a></li>
-                <li><a href="Staff Details.aspx"><i class="fa fa-circle-o"></i> Sold Medicines daily</a></li>
-                <li><a href="Staff Details.aspx"><i class="fa fa-circle-o"></i> Expiry Medicines</a></li>
-                <li><a href="Staff Details.aspx"><i class="fa fa-circle-o"></i> Remaining Medicines Stock</a></li>
-                <li><a href="Staff Details.aspx"><i class="fa fa-circle-o"></i> Excessively Medicines Sold</a></li>
-               <li><a href="Staff Details.aspx"><i class="fa fa-circle-o"></i> Sold Medicines Weekely</a></li>
-               <li><a href="Staff Details.aspx"><i class="fa fa-circle-o"></i> Sold Medicines Yearly</a></li>
+            <li><a href="Profit.aspx"><i class="fa fa-circle-o"></i> Profit or Loss</a></li>
+                <li><a href="Sold-Medicines.aspx"><i class="fa fa-circle-o"></i> Sold Medicines daily</a></li>
+                <li><a href="Expiry-Medicines.aspx"><i class="fa fa-circle-o"></i> Expiry Medicines</a></li>
+                <li><a href="Alert.aspx"><i class="fa fa-circle-o"></i> Remaining Medicines Stock</a></li>
+                <li><a href="Excessively.aspx"><i class="fa fa-circle-o"></i> Excessively Medicines Sold</a></li>
+               <li><a href="Medicines-Weekly.aspx"><i class="fa fa-circle-o"></i> Sold Medicines Weekely</a></li>
+               <li><a href="Medicine-Yearly.aspx"><i class="fa fa-circle-o"></i> Sold Medicines Yearly</a></li>
             <%--<li class="active"><a href="advanced.html"><i class="fa fa-circle-o"></i> Advanced Elements</a></li>
             <li><a href="editors.html"><i class="fa fa-circle-o"></i> Editors</a></li>--%>
           </ul>
+             <li><a href="invoice.aspx"><i class=" fa-credit-card"></i> <span>Invoice</span></a></li>
         </li>
 
 
