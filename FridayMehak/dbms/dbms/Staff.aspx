@@ -333,32 +333,176 @@
          <asp:Label ID="Label4" runat="server" Text="" ForeColor="Blue" ></asp:Label>
          </form>--%>
            <form id="frm1" runat="server">
-              <asp:Label ID="Label9" runat="server" Text="Name" Font-Bold="true"></asp:Label><br />
-               <asp:TextBox ID="TextBox1" runat="server" Width="400px"></asp:TextBox><br /><br />
-               <asp:Label ID="Label2" runat="server" Text="Address" Font-Bold="true" ></asp:Label><br />
-               <asp:TextBox ID="TextBox2" runat="server" Width="400px"></asp:TextBox><br /><br />
-               <asp:Label ID="Label3" runat="server" Text="Phone#" Font-Bold="true" ></asp:Label><br />
-               <asp:TextBox ID="TextBox3" runat="server" Width="400px"></asp:TextBox><br /><br />
-               <asp:Label ID="Label4" runat="server" Text="Email" Font-Bold="true"  ></asp:Label><br />
-                <asp:TextBox ID="TextBox4" runat="server" Width="400px" ></asp:TextBox><br /><br />
-               <asp:Label ID="Label5" runat="server" Text="Password" Font-Bold="true" ></asp:Label><br />
-               <asp:TextBox ID="TextBox5" runat="server" Width="400px"></asp:TextBox><br /><br />
-               <asp:Label ID="Label6" runat="server" Text="Confirm Password" Font-Bold="true"  ></asp:Label><br />
-               <asp:TextBox ID="TextBox6" runat="server" Width="400px"></asp:TextBox><br /><br />
-               <asp:Label ID="Label7" runat="server" Text="Salary" Font-Bold="true" ></asp:Label><br />
-               <asp:TextBox ID="TextBox7" runat="server" Width="400px"></asp:TextBox><br /><br />
-               <asp:Label ID="Label8" runat="server" Text="Gender" Font-Bold="true" ></asp:Label><br />
-               <asp:DropDownList ID="DropDownList1" runat="server" Width="400px">
+              <asp:Label ID="lblName" runat="server" Text="Name" Font-Bold="true"></asp:Label><br />
+               <asp:TextBox ID="txtName" runat="server" Width="400px"></asp:TextBox><br /><br />
+
+               <asp:Label ID="lblAddress" runat="server" Text="Address" Font-Bold="true" ></asp:Label><br />
+               <asp:TextBox ID="txtAddress" runat="server" Width="400px"></asp:TextBox><br /><br />
+
+               <asp:Label ID="lblPhone" runat="server" Text="Phone#" Font-Bold="true" ></asp:Label><br />
+               <asp:TextBox ID="txtPhone" runat="server" Width="400px"></asp:TextBox><br /><br />
+
+
+               <asp:Label ID="lblEmail" runat="server" Text="Email" Font-Bold="true"  ></asp:Label><br />
+                <asp:TextBox ID="txtEmail" runat="server" Width="400px" ></asp:TextBox><br /><br />
+
+
+               <asp:Label ID="lblPwd" runat="server" Text="Password" Font-Bold="true" ></asp:Label><br />
+               <asp:TextBox ID="txtPwd" runat="server" Width="400px"></asp:TextBox><br /><br />
+
+               <asp:Label ID="lblConfirmPwd" runat="server" Text="Confirm Password" Font-Bold="true"  ></asp:Label><br />
+               <asp:TextBox ID="txtConfirmPwd" runat="server" Width="400px"></asp:TextBox><br /><br />
+
+
+               <asp:Label ID="lblSalary" runat="server" Text="Salary" Font-Bold="true" ></asp:Label><br />
+               <asp:TextBox ID="txtSalary" runat="server" Width="400px"></asp:TextBox><br /><br />
+
+
+               <asp:Label ID="lblGender" runat="server" Text="Gender" Font-Bold="true" ></asp:Label><br />
+               <asp:DropDownList ID="DropDownListGender" runat="server" Width="400px">
                    <asp:ListItem>Male</asp:ListItem>
                    <asp:ListItem>Female</asp:ListItem>
                </asp:DropDownList><br /><br />
-               <asp:Label ID="Label1" runat="server" Text="Pharmacy Name" Font-Bold="true" ></asp:Label><br />
-                <asp:DropDownList ID="DropDownList2" runat="server" Width="400px" OnDataBinding="DropDownList2_DataBinding">
+
+               <asp:Label ID="lblPharmacy" runat="server" Text="Pharmacy Name" Font-Bold="true" ></asp:Label><br />
+                <asp:DropDownList ID="DropDownListPharmacy" runat="server" Width="400px" OnDataBinding="DropDownList2_DataBinding" DataSourceID="SqlDataSource1" DataTextField="Name" DataValueField="Name">
                     <asp:ListItem>Orange pharmacy</asp:ListItem>
-               </asp:DropDownList> <br /><br />
+               </asp:DropDownList> 
+               <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:DB6ConnectionString %>" SelectCommand="SELECT [Name] FROM [tbl_Pharmacy]"></asp:SqlDataSource>
+               <br /><br />
               
                <asp:Button ID="Button1" runat="server" Text="Save Record" BorderStyle="Groove" BackColor="RoyalBlue" OnClientClick="Button1_Click" Height="35px" OnClick="Button1_Click" /><br /><br /><br />
                <asp:Label ID="Label10" runat="server" Text="" ForeColor="Blue"></asp:Label>
+
+               <asp:GridView ID="GridView1" runat="server" AutoGenerateColumns="false" CellPadding="15" OnRowCancelingEdit="GridView1_RowCancelingEdit" OnRowEditing="GridView1_RowEditing" OnRowUpdating="GridView1_RowUpdating" OnRowDeleting="GridView1_RowDeleting">  
+              <Columns>
+                  <asp:TemplateField>
+                      <ItemTemplate>
+                          <asp:Button ID="btn_Edit" runat="server" Text="Edit" CommandName="Edit" />
+
+                      </ItemTemplate>
+                      <EditItemTemplate>
+                          <asp:Button ID="btn_Update" runat="server" Text="Update" CommandName="Update" />
+                          <asp:Button ID="btn_Cancel" runat="server" Text="Cancel" CommandName="Cancel" />
+                      </EditItemTemplate>
+                  </asp:TemplateField>
+
+                  <asp:TemplateField HeaderText="Actions">
+                      <ItemTemplate>
+                          <asp:Button ID="Delete" runat="server" Text="Delete" CommandName="Delete" />
+                      </ItemTemplate>
+                  </asp:TemplateField>
+
+
+                  <asp:TemplateField HeaderText="ID">
+                      <ItemTemplate>
+                          
+                          <asp:Label ID="lbl_ID" runat="server" Text='<%#Eval("StaffID") %>'></asp:Label>
+
+                      </ItemTemplate>
+                  </asp:TemplateField>
+
+                   <asp:TemplateField HeaderText="Name">  
+                    <ItemTemplate>  
+                        <asp:Label ID="lbl_Name" runat="server" Text='<%#Eval("Name") %>'></asp:Label>
+                    </ItemTemplate>  
+                    <EditItemTemplate>  
+                        <asp:TextBox ID="txt_Name" runat="server" Text='<%#Eval("Name") %>'></asp:TextBox>  
+                    </EditItemTemplate>  
+                </asp:TemplateField>  
+
+                      <asp:TemplateField HeaderText="Email">  
+                    <ItemTemplate>  
+                        <asp:Label ID="lbl_Email" runat="server" Text='<%#Eval("Email") %>'></asp:Label>
+                    </ItemTemplate>  
+                    <EditItemTemplate>  
+                        <asp:TextBox ID="txt_Email" runat="server" Text='<%#Eval("Email") %>'></asp:TextBox>  
+                    </EditItemTemplate>  
+                </asp:TemplateField>  
+
+                      <asp:TemplateField HeaderText="Password">  
+                    <ItemTemplate>  
+                        <asp:Label ID="lbl_Password" runat="server" Text='<%#Eval("Password") %>'></asp:Label>
+                    </ItemTemplate>  
+                    <EditItemTemplate>  
+                        <asp:TextBox ID="txt_Password" runat="server" Text='<%#Eval("Password") %>'></asp:TextBox>  
+                    </EditItemTemplate>  
+                </asp:TemplateField>  
+
+
+
+                  <asp:TemplateField HeaderText="Confirm_Password">  
+                    <ItemTemplate>  
+                        <asp:Label ID="lbl_Confirm_Password" runat="server" Text='<%#Eval("Confirm_Password") %>'></asp:Label>
+                    </ItemTemplate>  
+                    <EditItemTemplate>  
+                        <asp:TextBox ID="txt_Confirm_Password" runat="server" Text='<%#Eval("Confirm_Password") %>'></asp:TextBox>  
+                    </EditItemTemplate>  
+                </asp:TemplateField> 
+
+                   <asp:TemplateField HeaderText="Address">  
+                    <ItemTemplate>  
+                        <asp:Label ID="lbl_Address" runat="server" Text='<%#Eval("Address") %>'></asp:Label>
+                    </ItemTemplate>  
+                    <EditItemTemplate>  
+                        <asp:TextBox ID="txt_Address" runat="server" Text='<%#Eval("Address") %>'></asp:TextBox>  
+                    </EditItemTemplate>  
+                </asp:TemplateField> 
+
+
+                  <asp:TemplateField HeaderText="Phone #">  
+                    <ItemTemplate>  
+                        <asp:Label ID="lbl_Phoneno" runat="server" Text='<%#Eval("Phoneno") %>'></asp:Label>
+                    </ItemTemplate>  
+                    <EditItemTemplate>  
+                        <asp:TextBox ID="txt_Phoneno" runat="server" Text='<%#Eval("Phoneno") %>'></asp:TextBox>  
+                    </EditItemTemplate>  
+                </asp:TemplateField> 
+
+
+                  <asp:TemplateField HeaderText="Gender">  
+                    <ItemTemplate>  
+                        <asp:Label ID="lbl_Gender" runat="server" Text='<%#Eval("Gender") %>'></asp:Label>
+                    </ItemTemplate>  
+                    <EditItemTemplate>  
+                        <asp:TextBox ID="txt_Gender" runat="server" Text='<%#Eval("Gender") %>'></asp:TextBox>  
+                    </EditItemTemplate>  
+                </asp:TemplateField> 
+
+                  
+                  <asp:TemplateField HeaderText="Salary">  
+                    <ItemTemplate>  
+                        <asp:Label ID="lbl_Salary" runat="server" Text='<%#Eval("Salary") %>'></asp:Label>
+                    </ItemTemplate>  
+                    <EditItemTemplate>  
+                        <asp:TextBox ID="txt_Salary" runat="server" Text='<%#Eval("Salary") %>'></asp:TextBox>  
+                    </EditItemTemplate>  
+                </asp:TemplateField> 
+
+
+
+
+                  <%--<asp:TemplateField HeaderText="Pharmacy">  
+                    <ItemTemplate>  
+                        <asp:Label ID="lbl_Pharmacy" runat="server" Text='<%#Eval("Pharmacy") %>'></asp:Label>
+                    </ItemTemplate>  
+                    <EditItemTemplate>  
+                        <asp:TextBox ID="txt_Pharmacy" runat="server" Text='<%#Eval("Pharmacy") %>'></asp:TextBox>  
+                    </EditItemTemplate>  
+                </asp:TemplateField> --%>
+
+
+
+
+
+
+                       
+              </Columns>
+             </asp:GridView><br /><br />
+
+
+
+
 
 
            </form>         

@@ -1,34 +1,40 @@
 ﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Admin.aspx.cs" Inherits="dbms.Admin" %>
 
+
+
+
+
 <!DOCTYPE html>
 <html>
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>AdminLTE 2 | Dashboard</title>
+  <title>AdminLTE 2 | Advanced form elements</title>
   <!-- Tell the browser to be responsive to screen width -->
   <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
   <!-- Bootstrap 3.3.7 -->
-  <link rel="stylesheet" href="fonts/bower_components/bootstrap/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="../../fonts/bower_components/bootstrap/dist/css/bootstrap.min.css">
   <!-- Font Awesome -->
-  <link rel="stylesheet" href="fonts/bower_components/font-awesome/css/font-awesome.min.css">
+  <link rel="stylesheet" href="../../fonts/bower_components/font-awesome/css/font-awesome.min.css">
   <!-- Ionicons -->
-  <link rel="stylesheet" href="fonts/bower_components/Ionicons/css/ionicons.min.css">
+  <link rel="stylesheet" href="../../fonts/bower_components/Ionicons/css/ionicons.min.css">
+  <!-- daterange picker -->
+  <link rel="stylesheet" href="../../fonts/bower_components/bootstrap-daterangepicker/daterangepicker.css">
+  <!-- bootstrap datepicker -->
+  <link rel="stylesheet" href="../../fonts/bower_components/bootstrap-datepicker/dist/css/bootstrap-datepicker.min.css">
+  <!-- iCheck for checkboxes and radio inputs -->
+  <link rel="stylesheet" href="../../plugins/iCheck/all.css">
+  <!-- Bootstrap Color Picker -->
+  <link rel="stylesheet" href="../../fonts/bower_components/bootstrap-colorpicker/dist/css/bootstrap-colorpicker.min.css">
+  <!-- Bootstrap time Picker -->
+  <link rel="stylesheet" href="../../fonts/plugins/timepicker/bootstrap-timepicker.min.css">
+  <!-- Select2 -->
+  <link rel="stylesheet" href="../../fonts/bower_components/select2/dist/css/select2.min.css">
   <!-- Theme style -->
-  <link rel="stylesheet" href="fonts/dist/css/AdminLTE.min.css">
+  <link rel="stylesheet" href="../../fonts/dist/css/AdminLTE.min.css">
   <!-- AdminLTE Skins. Choose a skin from the css/skins
        folder instead of downloading all of them to reduce the load. -->
-  <link rel="stylesheet" href="fonts/dist/css/skins/_all-skins.min.css">
-  <!-- Morris chart -->
-  <link rel="stylesheet" href="fonts/bower_components/morris.js/morris.css">
-  <!-- jvectormap -->
-  <link rel="stylesheet" href="fonts/bower_components/jvectormap/jquery-jvectormap.css">
-  <!-- Date Picker -->
-  <link rel="stylesheet" href="fonts/bower_components/bootstrap-datepicker/dist/css/bootstrap-datepicker.min.css">
-  <!-- Daterange picker -->
-  <link rel="stylesheet" href="fonts/bower_components/bootstrap-daterangepicker/daterangepicker.css">
-  <!-- bootstrap wysihtml5 - text editor -->
-  <link rel="stylesheet" href="fonts/plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.min.css">
+  <link rel="stylesheet" href="../../fonts/dist/css/skins/_all-skins.min.css">
 
   <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
   <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -38,105 +44,121 @@
   <![endif]-->
 
   <!-- Google Font -->
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,300italic,400italic,600italic">
-</head>
-<body class="hold-transition skin-blue sidebar-mini">
-<div class="wrapper">
+  <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,300italic,400italic,600italic">
 
-  <header class="main-header">
+   <%-- <form id="form1" runat="server">--%>
+
+    </head>
+
+
+
+
+
+
+<body class="hold-transition skin-blue sidebar-mini">
+
+    
+    <header class="main-header">
     <!-- Logo -->
-    <a href="index2.html" class="logo">
+    <a href="../../index2.html" class="logo">
       <!-- mini logo for sidebar mini 50x50 pixels -->
-      <span class="logo-mini"><b>A</b></span>
+      <span class="logo-mini"><b>A</b>LT</span>
       <!-- logo for regular state and mobile devices -->
-      <span class="logo-lg"><b>Admin</b></span>
+      <span class="logo-lg"><b><center>Admin</center></b></span>
+
+        
     </a>
     <!-- Header Navbar: style can be found in header.less -->
-    <nav class="navbar navbar-static-top">
-      <!-- Sidebar toggle button-->
-      <a href="#" class="sidebar-toggle" data-toggle="push-menu" role="button">
-        <span class="sr-only">Toggle navigation</span>
-      </a>
-
-      <ul class="nav navbar-nav navbar-right">
+     <nav class="navbar navbar-static-top">
+       
+                            <ul class="nav navbar-nav navbar-right">
                                 <li><a runat="server" href="Main.aspx">Home</a></li>
                                 <li><a runat="server" href="Main.aspx">Sign Out</a></li>
                             </ul>
+                   
+
+      
+                
+         
+              
+         
     </nav>
   </header>
-  <!-- Left side column. contains the logo and sidebar -->
-  <aside class="main-sidebar">
+
+
+
+
+<aside class="main-sidebar">
     <!-- sidebar: style can be found in sidebar.less -->
-    <section class="sidebar">
-    
+    <section class="sidebar" style="height: auto;">
+      <!-- Sidebar user panel -->
+      <div class="user-panel">
+        
+          
+       
+      </div>
+      <!-- search form -->
+
+     
+       
+      <!-- /.search form -->
       <!-- sidebar menu: : style can be found in sidebar.less -->
-      <ul class="sidebar-menu" data-widget="tree">
+      <ul class="sidebar-menu tree" data-widget="tree">
+        
+        
+        
        
-        <li>
-          <a href="pages/widgets.html">
-            <i class="fa fa-book"></i> <span>Staff Details</span>
+          <li><a href="Staff.aspx"><i class="fa fa-book"></i> <span>Staff</span></a></li>
+          <li><a href="Attendance.aspx"><i class="fa fa-book"></i> <span>Attendance</span></a></li>
+           <li><a href="Pharmacy.aspx"><i class="fa fa-book"></i> <span>Pharmacy</span></a></li>
+
+
+
+        <li class="treeview active menu-open">
+          <a href="#">
+            <i class="fa fa-edit"></i> <span>Reports</span>
+            <span class="pull-right-container">
+              <i class="fa fa-angle-left pull-right"></i>
+            </span>
           </a>
-        </li>   
-        <li><a href="https://adminlte.io/docs"><i class="fa fa-book"></i> <span>Attendance</span></a></li>
-        <li class="header">Reports</li>
-        <li><a href="#"><i class="fa fa-circle-o"></i> <span>Staff Details</span></a></li>
-        <li><a href="#"><i class="fa fa-circle-o"></i> <span>Attendance Details</span></a></li>
+          <ul class="treeview-menu">
+            <li><a href="Staff Details.aspx"><i class="fa fa-circle-o"></i> Staff Details</a></li>
+              <li><a href="Attendance-Report.aspx"><i class="fa fa-circle-o"></i> Check Attedance</a></li>
+
+            
+          </ul>
+        </li>
+
+
+      
+
+
+
+
+
+          
+
+
        
+
+
+        
+        
       </ul>
     </section>
     <!-- /.sidebar -->
   </aside>
-
-  <!-- Content Wrapper. Contains page content -->
- 
-  <footer class="main-footer">
    
-   
-  </footer>
 
+
+
+
+
+    <p>
+        &nbsp;</p>
+    
 
   
-  <div class="control-sidebar-bg"></div>
-</div>
-<!-- ./wrapper -->
-
-<!-- jQuery 3 -->
-<script src="fonts/bower_components/jquery/dist/jquery.min.js"></script>
-<!-- jQuery UI 1.11.4 -->
-<script src="fonts/bower_components/jquery-ui/jquery-ui.min.js"></script>
-<!-- Resolve conflict in jQuery UI tooltip with Bootstrap tooltip -->
-<script>
-  $.widget.bridge('uibutton', $.ui.button);
-</script>
-<!-- Bootstrap 3.3.7 -->
-<script src="fonts/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
-<!-- Morris.js charts -->
-<script src="fonts/bower_components/raphael/raphael.min.js"></script>
-<script src="fonts/bower_components/morris.js/morris.min.js"></script>
-<!-- Sparkline -->
-<script src="fonts/bower_components/jquery-sparkline/dist/jquery.sparkline.min.js"></script>
-<!-- jvectormap -->
-<script src="fonts/plugins/jvectormap/jquery-jvectormap-1.2.2.min.js"></script>
-<script src="fonts/plugins/jvectormap/jquery-jvectormap-world-mill-en.js"></script>
-<!-- jQuery Knob Chart -->
-<script src="fonts/bower_components/jquery-knob/dist/jquery.knob.min.js"></script>
-<!-- daterangepicker -->
-<script src="fonts/bower_components/moment/min/moment.min.js"></script>
-<script src="fonts/bower_components/bootstrap-daterangepicker/daterangepicker.js"></script>
-<!-- datepicker -->
-<script src="fonts/bower_components/bootstrap-datepicker/dist/js/bootstrap-datepicker.min.js"></script>
-<!-- Bootstrap WYSIHTML5 -->
-<script src="fonts/plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.all.min.js"></script>
-<!-- Slimscroll -->
-<script src="fonts/bower_components/jquery-slimscroll/jquery.slimscroll.min.js"></script>
-<!-- FastClick -->
-<script src="fonts/bower_components/fastclick/lib/fastclick.js"></script>
-<!-- AdminLTE App -->
-<script src="fonts/dist/js/adminlte.min.js"></script>
-<!-- AdminLTE dashboard demo (This is only for demo purposes) -->
-<script src="fonts/dist/js/pages/dashboard.js"></script>
-<!-- AdminLTE for demo purposes -->
-<script src="fonts/dist/js/demo.js"></script>
 </body>
 </html>
-

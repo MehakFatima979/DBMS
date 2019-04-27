@@ -248,6 +248,13 @@
                <br /><br />
 
 
+               <asp:Label ID="lblType" runat="server" Text="User Type" Font-Bold="true"></asp:Label><br />
+
+               <asp:DropDownList ID="DropDownListUserType" runat="server" Width="400px">
+                   <asp:ListItem>Admin</asp:ListItem>
+                   <asp:ListItem>User</asp:ListItem>
+               </asp:DropDownList>
+
                <%--<asp:Label ID="lblConfirmPwd" runat="server" Text="Confirm Password" Font-Bold="true"></asp:Label><br />
                <asp:TextBox ID="txtConfirmPwd" runat="server" Width="400px" TextMode="Password"></asp:TextBox>
                <asp:RequiredFieldValidator ID="RequiredFieldValidator3" ControlToValidate="txtConfirmPwd"  Color="Red" runat="server" ErrorMessage="Confirm Password"></asp:RequiredFieldValidator>
@@ -293,8 +300,14 @@
 
 
 
-              
+             
+               
                <asp:Button ID="cmdSignIn" runat="server" Text="Sign In" BorderStyle="Groove" BackColor="RoyalBlue" OnClick="cmdSignIn_Click" Height="35px"  /><br /><br /><br />
+              
+                      <asp:LinkButton ID="LinkButton1" runat="server" href="ResetPassword.aspx">Reset Password</asp:LinkButton>
+
+                 
+              
                <asp:Label ID="lblMsg" runat="server" Text="" ForeColor="Blue"></asp:Label>
            </form>         
     </section>

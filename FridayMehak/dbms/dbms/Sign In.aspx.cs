@@ -19,55 +19,83 @@ namespace dbms
         protected void cmdSignIn_Click(object sender, EventArgs e)
         {
             conn.Open();
-
-            //string query = "select count(1) from tbl_Staff were Name=@name AND Password=@password ";
-            //SqlCommand sqlcmd = new SqlCommand(query, conn);
-            //sqlcmd.Parameters.AddWithValue("@name", txtUserName.Text.Trim());
-            //sqlcmd.Parameters.AddWithValue("@password", txtPassword.Text.Trim());
-            //int count = Convert.ToInt32(sqlcmd.ExecuteScalar());
-            //if (count == 1)
-            //{
-            //    Session["Name"] = txtUserName.Text.Trim();
-            //    Response.Redirect("Main.aspx");
-            //}
-
-
-            string checkuser = "select count(*) from tbl_Staff where Name = '" + txtUserName.Text + "'";
-            SqlCommand cnd = new SqlCommand(checkuser, conn);
-            int temp = Convert.ToInt32(cnd.ExecuteScalar().ToString());
-            conn.Close();
-
-            if (temp == 1)
+            
+            if(DropDownListUserType.Text =="Admin")
             {
-                conn.Open();
-                string checkpwd = "select Password from tbl_Staff where Password = '" + txtPassword.Text + "'";
-                SqlCommand cmd = new SqlCommand(checkpwd, conn);
-                string password = cmd.ExecuteScalar().ToString().Replace(" ", "");
-                if (password == txtPassword.Text)
+                string checkuser1 = "select count(*) from tbl_Admin where Name = '" + txtUserName.Text + "'";
+                SqlCommand cnd1 = new SqlCommand(checkuser1, conn);
+                int temp1 = Convert.ToInt32(cnd1.ExecuteScalar().ToString());
+                conn.Close();
+
+                if (temp1 == 1)
                 {
-                    Session["Name"] = txtUserName.Text;
+                    conn.Open();
+                    string checkpwd = "select Pssword from tbl_Admin where Pssword = '" + txtPassword.Text + "'";
+                    SqlCommand cmd = new SqlCommand(checkpwd, conn);
+                    string password1 = cmd.ExecuteScalar().ToString().Replace(" ", "");
+                    if (password1 == txtPassword.Text)
+                    {
+                        Session["Name"] = txtUserName.Text;
 
-                    Response.Write("<script>alert('Password is correct')</script>");
-                    Response.Redirect("UserMainPage.aspx");
+                        Response.Write("<script>alert('Password is correct')</script>");
+                        Response.Redirect("Admin.aspx");
 
 
+                    }
+                    else
+                    {
+                        Response.Write("<script>alert('Password is not correct')</script>");
+
+                    }
                 }
                 else
                 {
-                    Response.Write("<script>alert('Password is not correct')</script>");
+                    Response.Write("<script>alert('User is invalid')</script>");
 
                 }
             }
-            else
+
+
+            else if(DropDownListUserType.Text=="User")
             {
-                Response.Write("<script>alert('User is invalid')</script>");
+                string checkuser = "select count(*) from tbl_Staff where Name = '" + txtUserName.Text + "'";
+                SqlCommand cnd = new SqlCommand(checkuser, conn);
+                int temp = Convert.ToInt32(cnd.ExecuteScalar().ToString());
+                conn.Close();
+
+                if (temp == 1)
+                {
+                    conn.Open();
+                    string checkpwd = "select Password from tbl_Staff where Password = '" + txtPassword.Text + "'";
+                    SqlCommand cmd = new SqlCommand(checkpwd, conn);
+                    string password = cmd.ExecuteScalar().ToString();
+                    if (password == txtPassword.Text)
+                    {
+                        Session["Name"] = txtUserName.Text;
+
+                        Response.Write("<script>alert('Password is correct')</script>");
+                        Response.Redirect("UserMainPage.aspx");
+
+
+                    }
+                    else
+                    {
+                        Response.Write("<script>alert('Password is not correct')</script>");
+
+                    }
+                }
+                else
+                {
+                    Response.Write("<script>alert('User is invalid')</script>");
+
+                }
+
+                //txtUserName.Text = "";
+                //txtPassword.Text = "";
+                //txtConfirmPwd.Text = "";
 
             }
-
-            //txtUserName.Text = "";
-            //txtPassword.Text = "";
-            //txtConfirmPwd.Text = "";
-
         }
+           
     }
 }
