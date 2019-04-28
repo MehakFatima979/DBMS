@@ -149,7 +149,8 @@
         </li>--%>
 
          <li><a href="Search.aspx"><i class="fa fa-search"></i> <span>Search Medicines</span></a></li>
-          <li><a href="Sell Medicines.aspx"><i class="fa fa-book"></i> <span>Medicines Detail</span></a></li>
+          <li><a href="MedicinesDetails.aspx"><i class="fa fa-book"></i> <span>Medicines Detail</span></a></li>
+           <li><a href="Sell Medicines.aspx"><i class="fa fa-book"></i> <span>Sell Medicines</span></a></li>
 
         <li class="treeview active menu-open">
           <a href="#">

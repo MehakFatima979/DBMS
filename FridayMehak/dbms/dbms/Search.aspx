@@ -1,6 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="MedicinesDetails.aspx.cs" Inherits="dbms.MedicinesDetails" %>
-
-
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Search.aspx.cs" Inherits="dbms.Search" %>
 
 
 <!DOCTYPE html>
@@ -198,8 +196,8 @@
             </ul>
           </li>
           <!-- Control Sidebar Toggle Button -->
-                <li><a runat="server" href="Home.aspx">Home</a></li>
-                <li><a runat="server" href="Home.aspx">Sign Out</a></li>
+                <li><a id="A1" runat="server" href="Home.aspx">Home</a></li>
+                <li><a id="A2" runat="server" href="Home.aspx">Sign Out</a></li>
         </ul>
       </div>
     </nav>
@@ -318,108 +316,38 @@
 
   <!-- Content Wrapper. Contains page content -->
   <div class="content-wrapper">
-
-      <section class="content-header">
-      <h1>
-        <b>Medicines</b>
-        
-      </h1>
-      
-    </section>
     <!-- Content Header (Page header) -->
     <section class="content-header">
-         <form id="frm" runat="server">
-        <asp:Label ID="lblName" runat="server" Text="Medicine Name" Font-Bold="true"></asp:Label><br />
-        <asp:TextBox ID="txtName" runat="server" Width="400px"></asp:TextBox><br /><br />
+     <%--    <form id="frm" runat="server">
+        <asp:Label ID="Label1" runat="server" Text="Pharmacy Name" Font-Bold="true"></asp:Label><br />
+        <asp:TextBox ID="TextBox1" runat="server" Width="400px"></asp:TextBox><br /><br />
+       <asp:Label ID="Label2" runat="server" Text="City"  Font-Bold="true"></asp:Label><br />
+      <asp:TextBox ID="TextBox2" runat="server" Width="400px"></asp:TextBox><br /><br />
+       <asp:Label ID="Label3" runat="server" Text="Location" Font-Bold="true"></asp:Label><br />
+          <asp:TextBox ID="TextBox3" runat="server" Width="400px"></asp:TextBox><br /><br />
+         <asp:Button ID="Button1" runat="server" Text="Save Record" BorderStyle="Groove" BackColor="RoyalBlue" OnClientClick="Button1_Add" Height="35px" OnClick="Button1_Click" />
+       <br /><br />
+         <asp:Label ID="Label4" runat="server" Text="" ForeColor="Blue" ></asp:Label>
+         </form>--%>
+           <form id="frm1" runat="server">
+              <asp:Label ID="lblName" runat="server" Text="Enter Purchase Date to search medicine which you purchase " Font-Bold="true"></asp:Label><br />
+              
+              
 
-
-       <asp:Label ID="lblComposition" runat="server" Text="Composition"  Font-Bold="true"></asp:Label><br />
-      <asp:TextBox ID="txtComposition" runat="server" Width="400px"></asp:TextBox><br /><br />
-
-
-
-
-       <asp:Label ID="lblDescription" runat="server" Text="Description" Font-Bold="true"></asp:Label><br />
-          <asp:TextBox ID="txtdescription" runat="server" Width="400px"></asp:TextBox><br /><br />
-
-              <asp:Label ID="lblSideEffects" runat="server" Text="Side Effects" Font-Bold="true"></asp:Label><br />
-          <asp:TextBox ID="txtSideEffects" runat="server" Width="400px"></asp:TextBox><br /><br />
-
-              <asp:Label ID="lblCompany" runat="server" Text="Company" Font-Bold="true"></asp:Label><br />
-          <asp:TextBox ID="txtCompany" runat="server" Width="400px"></asp:TextBox><br /><br />
-
-              <asp:Label ID="lblMedCode" runat="server" Text="Medicine Code" Font-Bold="true"></asp:Label><br />
-          <asp:TextBox ID="txtMedCode" runat="server" Width="400px"></asp:TextBox><br /><br />
-
-
-              <asp:Label ID="lblPurchasePrice" runat="server" Text="Purchase Price" Font-Bold="true"></asp:Label><br />
-          <asp:TextBox ID="txtPurchasePrice" runat="server" Width="400px"></asp:TextBox><br /><br />
-
-
-              <asp:Label ID="lblQuantity" runat="server" Text="Quantity" Font-Bold="true"></asp:Label><br />
-          <asp:TextBox ID="txtQuantity" runat="server" Width="400px"></asp:TextBox><br /><br />
-
-             <asp:Label ID="lblAlertQty" runat="server" Text="Alert Quantity" Font-Bold="true"></asp:Label><br />
-          <asp:TextBox ID="txtAlertQty" runat="server" Width="400px"></asp:TextBox><br /><br />
-
-              <asp:Label ID="lblTax" runat="server" Text="Tax" Font-Bold="true"></asp:Label><br />
-          <asp:TextBox ID="txtTax" runat="server" Width="400px"></asp:TextBox><br /><br />
-
-            
-
-
-             <asp:Label ID="lblCreatedDate" runat="server" Text="Created Date" Font-Bold="true"  ></asp:Label><br />
-                    
-                 <asp:Calendar ID="Calendar1" runat="server" Visible="false" OnSelectionChanged="Calendar1_SelectionChanged"></asp:Calendar> 
-               <asp:TextBox ID="TextBox1" runat="server" AutoPostBack="True" Width="400px"></asp:TextBox>  <br />
-               <asp:LinkButton ID="LinkButton1" runat="server" OnClick="LinkButton1_Click">Pick Date</asp:LinkButton><br /><br />
-
-
-             <asp:Label ID="lblPurchaseDate" runat="server" Text="Purchased Date" Font-Bold="true"  ></asp:Label><br />
-              <asp:Calendar ID="Calendar2" runat="server" Visible="false" OnSelectionChanged="Calendar2_SelectionChanged"></asp:Calendar> 
-             <asp:TextBox ID="TextBox2" runat="server" AutoPostBack="True" Width="400px"></asp:TextBox>  <br />
-             <asp:LinkButton ID="LinkButton2" runat="server" OnClick="LinkButton2_Click">Pick Date</asp:LinkButton><br /><br />
-
-                    
-
-             <asp:Label ID="Label1" runat="server" Text="Expiry Date" Font-Bold="true"  ></asp:Label><br />
+                  
               <asp:Calendar ID="Calendar3" runat="server" Visible="false" OnSelectionChanged="Calendar3_SelectionChanged"></asp:Calendar> 
              <asp:TextBox ID="TextBox3" runat="server" AutoPostBack="True" Width="400px"></asp:TextBox>  <br />
              <asp:LinkButton ID="LinkButton3" runat="server" OnClick="LinkButton3_Click">Pick Date</asp:LinkButton><br /><br />
+                <asp:Button ID="Button1" runat="server" Text="Search" BorderStyle="Groove" BackColor="RoyalBlue"  Height="35px" OnClick="Button1_Click" /><br /><br /><br />
+               <asp:Label ID="Label10" runat="server" Text="" ForeColor="Blue"></asp:Label><br /><br />
 
 
-
-
-
-
-
-         <asp:Button ID="cmdSaveRecord" runat="server" Text="Save Record" BorderStyle="Groove" BackColor="RoyalBlue" Height="35px" OnClick="Button1_Click"  />
-       <br /><br />
-         <asp:Label ID="lblSaveRecord" runat="server" Text="" ForeColor="Blue" ></asp:Label>
-            
-
-            
-
-
-               <asp:GridView ID="GridView1" runat="server" AutoGenerateColumns="false" CellPadding="15" OnRowCancelingEdit="GridView1_RowCancelingEdit" OnRowEditing="GridView1_RowEditing" OnRowUpdating="GridView1_RowUpdating" OnRowDeleting="GridView1_RowDeleting">  
+                <asp:Label ID="Label2" runat="server" Text="" Font-Bold="true"></asp:Label><br />
+               <asp:GridView ID="GridView1" runat="server" AutoGenerateColumns="false" CellPadding="15">  
               <Columns>
-                  <asp:TemplateField>
-                      <ItemTemplate>
-                          <asp:Button ID="btn_Edit" runat="server" Text="Edit" CommandName="Edit" />
+                
 
-                      </ItemTemplate>
-                      <EditItemTemplate>
-                          <asp:Button ID="btn_Update" runat="server" Text="Update" CommandName="Update" />
-                          <asp:Button ID="btn_Cancel" runat="server" Text="Cancel" CommandName="Cancel" />
-                      </EditItemTemplate>
-                  </asp:TemplateField>
-
-                  <asp:TemplateField HeaderText="Actions">
-                      <ItemTemplate>
-                          <asp:Button ID="Delete" runat="server" Text="Delete" CommandName="Delete" />
-                      </ItemTemplate>
-                  </asp:TemplateField>
-
+                  
 
                   <asp:TemplateField HeaderText="ID">
                       <ItemTemplate>
@@ -532,9 +460,10 @@
              </asp:GridView><br /><br />
 
 
-            
-         </form>
-                    
+
+
+
+           </form>         
     </section>
                  
 
@@ -806,7 +735,7 @@
 <script src="bower_components/jquery-ui/jquery-ui.min.js"></script>
 <!-- Resolve conflict in jQuery UI tooltip with Bootstrap tooltip -->
 <script>
-  $.widget.bridge('uibutton', $.ui.button);
+    $.widget.bridge('uibutton', $.ui.button);
 </script>
 <!-- Bootstrap 3.3.7 -->
 <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
@@ -839,3 +768,4 @@
 <script src="dist/js/demo.js"></script>
 </body>
 </html>
+

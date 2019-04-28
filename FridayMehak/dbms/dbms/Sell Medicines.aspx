@@ -1,4 +1,6 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="MedicinesDetails.aspx.cs" Inherits="dbms.MedicinesDetails" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Sell Medicines.aspx.cs" Inherits="dbms.Sell_Medicines" %>
+
+
 
 
 
@@ -198,8 +200,8 @@
             </ul>
           </li>
           <!-- Control Sidebar Toggle Button -->
-                <li><a runat="server" href="Home.aspx">Home</a></li>
-                <li><a runat="server" href="Home.aspx">Sign Out</a></li>
+                <li><a id="A1" runat="server" href="Home.aspx">Home</a></li>
+                <li><a id="A2" runat="server" href="Home.aspx">Sign Out</a></li>
         </ul>
       </div>
     </nav>
@@ -328,64 +330,54 @@
     </section>
     <!-- Content Header (Page header) -->
     <section class="content-header">
-         <form id="frm" runat="server">
-        <asp:Label ID="lblName" runat="server" Text="Medicine Name" Font-Bold="true"></asp:Label><br />
-        <asp:TextBox ID="txtName" runat="server" Width="400px"></asp:TextBox><br /><br />
+         <form id="frm2" runat="server">
+        <asp:Label ID="lblMedName" runat="server" Text="Medicine Name" Font-Bold="true"></asp:Label><br />
+        <asp:TextBox ID="txtMedName" runat="server" Width="400px"></asp:TextBox><br /><br />
+
+             <asp:Button ID="Button2" runat="server" Text="Show Detail" OnClick="Button2_Click" /><br /><br />
+        
+        <asp:Label ID="lblPurchase" runat="server" Text="Purchase Price"  Font-Bold="true"></asp:Label><br />
+      <asp:TextBox ID="txtPurchase" runat="server" Width="400px" ></asp:TextBox><br /><br />
+
+       <asp:Label ID="lblsale" runat="server" Text="Sale Price"  Font-Bold="true"></asp:Label><br />
+      <asp:TextBox ID="txtsale" runat="server" Width="400px"></asp:TextBox><br /><br />
 
 
-       <asp:Label ID="lblComposition" runat="server" Text="Composition"  Font-Bold="true"></asp:Label><br />
-      <asp:TextBox ID="txtComposition" runat="server" Width="400px"></asp:TextBox><br /><br />
 
 
+       <asp:Label ID="lblrecommended" runat="server" Text="Recommended By" Font-Bold="true"></asp:Label><br />
+          <asp:TextBox ID="txtrecommended" runat="server" Width="400px"></asp:TextBox><br /><br />
 
+              <asp:Label ID="lblhospital" runat="server" Text="Hospital" Font-Bold="true"></asp:Label><br />
+          <asp:TextBox ID="txthospital" runat="server" Width="400px"></asp:TextBox><br /><br />
 
-       <asp:Label ID="lblDescription" runat="server" Text="Description" Font-Bold="true"></asp:Label><br />
-          <asp:TextBox ID="txtdescription" runat="server" Width="400px"></asp:TextBox><br /><br />
+               <asp:Label ID="Label3" runat="server" Text="Purchased Date" Font-Bold="true"  ></asp:Label><br />
+            <%--  <asp:Calendar ID="Calendar4" runat="server" Visible="false" OnSelectionChanged="Calendar4_SelectionChanged"></asp:Calendar> --%>
+             <asp:TextBox ID="TextBox4" runat="server" AutoPostBack="True" Width="400px"></asp:TextBox>  <br />
+   <%--          <asp:LinkButton ID="LinkButton4" runat="server" OnClick="LinkButton4_Click">Pick Date</asp:LinkButton>--%><br /><br />
 
-              <asp:Label ID="lblSideEffects" runat="server" Text="Side Effects" Font-Bold="true"></asp:Label><br />
-          <asp:TextBox ID="txtSideEffects" runat="server" Width="400px"></asp:TextBox><br /><br />
+                    
 
-              <asp:Label ID="lblCompany" runat="server" Text="Company" Font-Bold="true"></asp:Label><br />
-          <asp:TextBox ID="txtCompany" runat="server" Width="400px"></asp:TextBox><br /><br />
+             <asp:Label ID="Label4" runat="server" Text="Expiry Date" Font-Bold="true"  ></asp:Label><br />
+             <%-- <asp:Calendar ID="Calendar5" runat="server" Visible="false" OnSelectionChanged="Calendar5_SelectionChanged"></asp:Calendar> --%>
+             <asp:TextBox ID="TextBox5" runat="server" AutoPostBack="True" Width="400px"></asp:TextBox>  <br />
+           <%--  <asp:LinkButton ID="LinkButton5" runat="server" OnClick="LinkButton5_Click">Pick Date</asp:LinkButton>--%><br /><br />
 
-              <asp:Label ID="lblMedCode" runat="server" Text="Medicine Code" Font-Bold="true"></asp:Label><br />
-          <asp:TextBox ID="txtMedCode" runat="server" Width="400px"></asp:TextBox><br /><br />
+             
+             <asp:Label ID="Label1" runat="server" Text="Sale Date" Font-Bold="true"  ></asp:Label><br />
+              <asp:Calendar ID="Calendar6" runat="server" Visible="false" OnSelectionChanged="Calendar6_SelectionChanged"></asp:Calendar> 
+             <asp:TextBox ID="TextBox6" runat="server" AutoPostBack="True" Width="400px"></asp:TextBox>  <br />
+             <asp:LinkButton ID="LinkButton6" runat="server" OnClick="LinkButton6_Click">Pick Date</asp:LinkButton><br /><br />
 
+             
 
-              <asp:Label ID="lblPurchasePrice" runat="server" Text="Purchase Price" Font-Bold="true"></asp:Label><br />
-          <asp:TextBox ID="txtPurchasePrice" runat="server" Width="400px"></asp:TextBox><br /><br />
-
-
-              <asp:Label ID="lblQuantity" runat="server" Text="Quantity" Font-Bold="true"></asp:Label><br />
-          <asp:TextBox ID="txtQuantity" runat="server" Width="400px"></asp:TextBox><br /><br />
-
-             <asp:Label ID="lblAlertQty" runat="server" Text="Alert Quantity" Font-Bold="true"></asp:Label><br />
-          <asp:TextBox ID="txtAlertQty" runat="server" Width="400px"></asp:TextBox><br /><br />
-
-              <asp:Label ID="lblTax" runat="server" Text="Tax" Font-Bold="true"></asp:Label><br />
-          <asp:TextBox ID="txtTax" runat="server" Width="400px"></asp:TextBox><br /><br />
+              <asp:Label ID="lblmedtx" runat="server" Text="Tax" Font-Bold="true"></asp:Label><br />
+          <asp:TextBox ID="txtmedtx" runat="server" Width="400px"></asp:TextBox><br /><br />
 
             
 
 
-             <asp:Label ID="lblCreatedDate" runat="server" Text="Created Date" Font-Bold="true"  ></asp:Label><br />
-                    
-                 <asp:Calendar ID="Calendar1" runat="server" Visible="false" OnSelectionChanged="Calendar1_SelectionChanged"></asp:Calendar> 
-               <asp:TextBox ID="TextBox1" runat="server" AutoPostBack="True" Width="400px"></asp:TextBox>  <br />
-               <asp:LinkButton ID="LinkButton1" runat="server" OnClick="LinkButton1_Click">Pick Date</asp:LinkButton><br /><br />
-
-
-             <asp:Label ID="lblPurchaseDate" runat="server" Text="Purchased Date" Font-Bold="true"  ></asp:Label><br />
-              <asp:Calendar ID="Calendar2" runat="server" Visible="false" OnSelectionChanged="Calendar2_SelectionChanged"></asp:Calendar> 
-             <asp:TextBox ID="TextBox2" runat="server" AutoPostBack="True" Width="400px"></asp:TextBox>  <br />
-             <asp:LinkButton ID="LinkButton2" runat="server" OnClick="LinkButton2_Click">Pick Date</asp:LinkButton><br /><br />
-
-                    
-
-             <asp:Label ID="Label1" runat="server" Text="Expiry Date" Font-Bold="true"  ></asp:Label><br />
-              <asp:Calendar ID="Calendar3" runat="server" Visible="false" OnSelectionChanged="Calendar3_SelectionChanged"></asp:Calendar> 
-             <asp:TextBox ID="TextBox3" runat="server" AutoPostBack="True" Width="400px"></asp:TextBox>  <br />
-             <asp:LinkButton ID="LinkButton3" runat="server" OnClick="LinkButton3_Click">Pick Date</asp:LinkButton><br /><br />
+         
 
 
 
@@ -393,15 +385,167 @@
 
 
 
-         <asp:Button ID="cmdSaveRecord" runat="server" Text="Save Record" BorderStyle="Groove" BackColor="RoyalBlue" Height="35px" OnClick="Button1_Click"  />
+         <asp:Button ID="cmdSave" runat="server" Text="Save Record" BorderStyle="Groove" BackColor="RoyalBlue" Height="35px" OnClick="Button1_Click"  />
        <br /><br />
-         <asp:Label ID="lblSaveRecord" runat="server" Text="" ForeColor="Blue" ></asp:Label>
-            
+         <asp:Label ID="lblSave" runat="server" Text="" ForeColor="Blue" ></asp:Label>
+
+
+
+
+
+
+
+
+
+
+
+
 
             
 
+             <asp:GridView ID="GridView1" runat="server" OnRowCancelingEdit="GridView1_RowCancelingEdit" OnRowEditing="GridView1_RowEditing" OnRowUpdating="GridView1_RowUpdating" OnRowDeleting="GridView1_RowDeleting">
 
-               <asp:GridView ID="GridView1" runat="server" AutoGenerateColumns="false" CellPadding="15" OnRowCancelingEdit="GridView1_RowCancelingEdit" OnRowEditing="GridView1_RowEditing" OnRowUpdating="GridView1_RowUpdating" OnRowDeleting="GridView1_RowDeleting">  
+
+
+                 <Columns>
+                  <asp:TemplateField>
+                      <ItemTemplate>
+                          <asp:Button ID="btn_Edit" runat="server" Text="Edit" CommandName="Edit" />
+
+                      </ItemTemplate>
+                      <EditItemTemplate>
+                          <asp:Button ID="btn_Update" runat="server" Text="Update" CommandName="Update" />
+                          <asp:Button ID="btn_Cancel" runat="server" Text="Cancel" CommandName="Cancel" />
+                      </EditItemTemplate>
+                  </asp:TemplateField>
+
+                  <asp:TemplateField HeaderText="Actions">
+                      <ItemTemplate>
+                          <asp:Button ID="Delete" runat="server" Text="Delete" CommandName="Delete" />
+                      </ItemTemplate>
+                  </asp:TemplateField>
+
+
+                  <asp:TemplateField HeaderText="ID">
+                      <ItemTemplate>
+                          
+                          <asp:Label ID="lbl_ID" runat="server" Text='<%#Eval("MedID") %>'></asp:Label>
+
+                      </ItemTemplate>
+                  </asp:TemplateField>
+
+                   <asp:TemplateField HeaderText="Medicine Name">  
+                    <ItemTemplate>  
+                        <asp:Label ID="lbl_name" runat="server" Text='<%#Eval("Name") %>'></asp:Label>
+                    </ItemTemplate>  
+                    <EditItemTemplate>  
+                        <asp:TextBox ID="txt_Name" runat="server" Text='<%#Eval("Name") %>'></asp:TextBox>  
+                    </EditItemTemplate>  
+                </asp:TemplateField>  
+
+                      <asp:TemplateField HeaderText="Purchase_Price">  
+                    <ItemTemplate>  
+                        <asp:Label ID="lbl_purchaseprice" runat="server" Text='<%#Eval("Purchase_Price") %>'></asp:Label>
+                    </ItemTemplate>  
+                      <%--  <asp:TextBox ID="txt_purchaseprice" runat="server" Text='<%#Eval("Purchase_Price") %>'></asp:TextBox>  --%>
+                     
+                </asp:TemplateField>  
+
+                      <asp:TemplateField HeaderText="Sale_Price">  
+                    <ItemTemplate>  
+                        <asp:Label ID="lbl_Sale_Price" runat="server" Text='<%#Eval("Sale_Price") %>'></asp:Label>
+                    </ItemTemplate>  
+                    <EditItemTemplate>  
+                        <asp:TextBox ID="txt_Sale_Price" runat="server" Text='<%#Eval("Sale_Price") %>'></asp:TextBox>  
+                    </EditItemTemplate>  
+                </asp:TemplateField>  
+
+                 <%--  <asp:TemplateField HeaderText="Side_Effects">  
+                    <ItemTemplate>  
+                        <asp:Label ID="lbl_Side" runat="server" Text='<%#Eval("Side_Effects") %>'></asp:Label>
+                    </ItemTemplate>  
+                    <EditItemTemplate>  
+                        <asp:TextBox ID="txt_Side_Effects" runat="server" Text='<%#Eval("Side_Effects") %>'></asp:TextBox>  
+                    </EditItemTemplate>  
+                </asp:TemplateField>  --%>
+
+                   <asp:TemplateField HeaderText="Hospital Name">  
+                    <ItemTemplate>  
+                        <asp:Label ID="lbl_hospital" runat="server" Text='<%#Eval("Name") %>'></asp:Label>
+                    </ItemTemplate>  
+                    <EditItemTemplate>  
+                        <asp:TextBox ID="txt_hospital" runat="server" Text='<%#Eval("Name") %>'></asp:TextBox>  
+                    </EditItemTemplate>  
+                </asp:TemplateField>  
+
+                   <asp:TemplateField HeaderText="Doctor Name">  
+                    <ItemTemplate>  
+                        <asp:Label ID="lbl_docotor" runat="server" Text='<%#Eval("Name") %>'></asp:Label>
+                    </ItemTemplate>  
+                    <EditItemTemplate>  
+                        <asp:TextBox ID="txt_Med_docotor" runat="server" Text='<%#Eval("Name") %>'></asp:TextBox>  
+                    </EditItemTemplate>  
+                </asp:TemplateField>  
+
+               <%--   <asp:TemplateField HeaderText="Alert_Quantity">  
+                    <ItemTemplate>  
+                        <asp:Label ID="lbl_Alert" runat="server" Text='<%#Eval("Alert_Quantity") %>'></asp:Label>
+                    </ItemTemplate>  
+                    <EditItemTemplate>  
+                        <asp:TextBox ID="txt_Alert_Quantity" runat="server" Text='<%#Eval("Alert_Quantity") %>'></asp:TextBox>  
+                    </EditItemTemplate>  
+                </asp:TemplateField>  --%>
+
+                   <asp:TemplateField HeaderText="Sale_Date">  
+                    <ItemTemplate>  
+                        <asp:Label ID="lbl_Sale_Date" runat="server" Text='<%#Eval("Sale_Date") %>'></asp:Label>
+                    </ItemTemplate>  
+                    <EditItemTemplate>  
+                        <asp:TextBox ID="txt_Sale_Date" runat="server" Text='<%#Eval("Sale_Date") %>'></asp:TextBox>  
+                    </EditItemTemplate>  
+                </asp:TemplateField>  
+
+                   <asp:TemplateField HeaderText="Purschase_Date">  
+                    <ItemTemplate>  
+                        <asp:Label ID="lbl_Purschase" runat="server" Text='<%#Eval("Purschase_Date") %>'></asp:Label>
+                    </ItemTemplate>  
+                     
+                      <%--  <asp:TextBox ID="txt_Purschase_Date" runat="server" Text='<%#Eval("Purschase_Date") %>'></asp:TextBox>  --%>
+                    
+                </asp:TemplateField>  
+
+                   <asp:TemplateField HeaderText="Created_on">  
+                    <ItemTemplate>  
+                        <asp:Label ID="lbl_Created" runat="server" Text='<%#Eval("Created_on") %>'></asp:Label>
+                    </ItemTemplate>  
+                   <%-- <EditItemTemplate>  
+                        <asp:TextBox ID="txt_Created_on" runat="server" Text='<%#Eval("Created_on") %>'></asp:TextBox>  
+                    </EditItemTemplate> --%> 
+                </asp:TemplateField> 
+
+                   <asp:TemplateField HeaderText="Expiry_Date">  
+                    <ItemTemplate>  
+                        <asp:Label ID="lbl_Expiry" runat="server" Text='<%#Eval("Expiry_Date") %>'></asp:Label>
+                    </ItemTemplate>  
+                  <%--  <EditItemTemplate>  
+                        <asp:TextBox ID="txt_Expiry_Date" runat="server" Text='<%#Eval("Expiry_Date") %>'></asp:TextBox>  
+                    </EditItemTemplate>  --%>
+                </asp:TemplateField>
+                     
+                      <asp:TemplateField HeaderText="Tax">  
+                    <ItemTemplate>  
+                        <asp:Label ID="lbl_tax" runat="server" Text='<%#Eval("Tax") %>'></asp:Label>
+                    </ItemTemplate>  
+                  <%--  <EditItemTemplate>  
+                        <asp:TextBox ID="txt_Expiry_Date" runat="server" Text='<%#Eval("Expiry_Date") %>'></asp:TextBox>  
+                    </EditItemTemplate>  --%>
+                </asp:TemplateField> 
+                       
+              </Columns>
+             </asp:GridView>
+
+
+              <%-- <asp:GridView ID="GridView2" runat="server" AutoGenerateColumns="false" CellPadding="15" OnRowCancelingEdit="GridView1_RowCancelingEdit" OnRowEditing="GridView1_RowEditing" OnRowUpdating="GridView1_RowUpdating" OnRowDeleting="GridView1_RowDeleting">  
               <Columns>
                   <asp:TemplateField>
                       <ItemTemplate>
@@ -529,7 +673,7 @@
                 </asp:TemplateField> 
                        
               </Columns>
-             </asp:GridView><br /><br />
+             </asp:GridView><br /><br />--%>
 
 
             
@@ -806,7 +950,7 @@
 <script src="bower_components/jquery-ui/jquery-ui.min.js"></script>
 <!-- Resolve conflict in jQuery UI tooltip with Bootstrap tooltip -->
 <script>
-  $.widget.bridge('uibutton', $.ui.button);
+    $.widget.bridge('uibutton', $.ui.button);
 </script>
 <!-- Bootstrap 3.3.7 -->
 <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
@@ -839,3 +983,4 @@
 <script src="dist/js/demo.js"></script>
 </body>
 </html>
+
