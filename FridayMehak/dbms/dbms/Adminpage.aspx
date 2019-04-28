@@ -195,8 +195,8 @@
             </ul>
           </li>
           <!-- Control Sidebar Toggle Button -->
-                <li><a runat="server" href="Home.aspx">Home</a></li>
-                <li><a runat="server" href="Home.aspx">Sign Out</a></li>
+                <li><a runat="server" href="Main.aspx">Home</a></li>
+                <li><a runat="server" href="Main.aspx">Sign Out</a></li>
         </ul>
       </div>
     </nav>
@@ -239,6 +239,12 @@
             
           </a>
         </li>
+    
+
+
+
+
+
 
            <li>
           <a href="Adminpage.aspx">

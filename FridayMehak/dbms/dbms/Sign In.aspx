@@ -202,8 +202,8 @@
             </ul>
           </li>
           <!-- Control Sidebar Toggle Button -->
-                <li><a runat="server" href="Home.aspx">Home</a></li>
-                <li><a runat="server" href="Home.aspx">Sign Out</a></li>
+                <li><a runat="server" href="Main.aspx">Home</a></li>
+                <li><a runat="server" href="Main.aspx">Sign Out</a></li>
         </ul>
       </div>
     </nav>
@@ -254,6 +254,7 @@
                    <asp:ListItem>Admin</asp:ListItem>
                    <asp:ListItem>User</asp:ListItem>
                </asp:DropDownList>
+               <br /><br />
 
                <%--<asp:Label ID="lblConfirmPwd" runat="server" Text="Confirm Password" Font-Bold="true"></asp:Label><br />
                <asp:TextBox ID="txtConfirmPwd" runat="server" Width="400px" TextMode="Password"></asp:TextBox>

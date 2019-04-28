@@ -111,7 +111,7 @@
        
           <li><a href="Staff.aspx"><i class="fa fa-book"></i> <span>Staff</span></a></li>
           <li><a href="Attendance.aspx"><i class="fa fa-book"></i> <span>Attendance</span></a></li>
-           <li><a href="Pharmacy.aspx"><i class="fa fa-book"></i> <span>Pharmacy</span></a></li>
+           <li><a href="Adminpage.aspx"><i class="fa fa-book"></i> <span>Pharmacy</span></a></li>
 
 
 
