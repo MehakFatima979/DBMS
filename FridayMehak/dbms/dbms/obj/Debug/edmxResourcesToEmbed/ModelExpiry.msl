@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="DB6ModelStoreContainer" CdmEntityContainer="DB6Entities">
+    <EntitySetMapping Name="tbl_medicines">
+      <EntityTypeMapping TypeName="DB6Model.tbl_medicines">
+        <MappingFragment StoreEntitySet="tbl_medicines">
+          <ScalarProperty Name="MedID" ColumnName="MedID" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Composition" ColumnName="Composition" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="Side_Effects" ColumnName="Side_Effects" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbl_MedicinesDate">
+      <EntityTypeMapping TypeName="DB6Model.tbl_MedicinesDate">
+        <MappingFragment StoreEntitySet="tbl_MedicinesDate">
+          <ScalarProperty Name="DateID" ColumnName="DateID" />
+          <ScalarProperty Name="Purschase_Date" ColumnName="Purschase_Date" />
+          <ScalarProperty Name="Created_on" ColumnName="Created_on" />
+          <ScalarProperty Name="Expiry_Date" ColumnName="Expiry_Date" />
+          <ScalarProperty Name="MedID" ColumnName="MedID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

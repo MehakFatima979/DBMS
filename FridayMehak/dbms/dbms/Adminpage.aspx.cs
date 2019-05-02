@@ -29,7 +29,7 @@ namespace dbms
             //}
             //conn.Close();
         }
-        SqlConnection conn = new SqlConnection(@"Data Source=HAIER-PC\SQLEXPRESS;Initial Catalog=DB6;Integrated Security=True");
+        SqlConnection conn = new SqlConnection(@"Data Source=DESKTOP-DOTOD0U\SQLEXPRESS;Initial Catalog=DB6;Integrated Security=True");
         private void ShowData()
         {
            

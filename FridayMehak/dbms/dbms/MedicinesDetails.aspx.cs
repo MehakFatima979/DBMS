@@ -13,7 +13,7 @@ namespace dbms
     {
         SqlDataAdapter adapt;
         DataTable dt;
-        SqlConnection conn = new SqlConnection(@"Data Source=HAIER-PC\SQLEXPRESS;Initial Catalog=DB6;Integrated Security=True");
+        SqlConnection conn = new SqlConnection(@"Data Source=DESKTOP-DOTOD0U\SQLEXPRESS;Initial Catalog=DB6;Integrated Security=True");
         protected void Page_Load(object sender, EventArgs e)
         {
             if (!Page.IsPostBack)
@@ -170,12 +170,12 @@ namespace dbms
             SqlDataAdapter cdn2 = new SqlDataAdapter(query2, conn);
             cdn2.SelectCommand.ExecuteNonQuery();
 
-            string query3 = "insert into tbl_MedicinePrice(Purchase_Price,MedID,Tax) values ('" + txtPurchasePrice.Text + "' ,(select MedID from tbl_medicines where Name='" + txtName.Text + "' and Composition='" + txtComposition.Text + "' and Description='" + txtdescription.Text + "' and Side_Effects='" + txtSideEffects.Text + "'),'"+txtTax.Text+"') ";
+            string query3 = "insert into tbl_MedicinePrice(Purchase_Price,MedID,Tax) values ('" + txtPurchasePrice.Text + "' ,(select MedID from tbl_medicines where Name='" + txtName.Text + "' and Composition='" + txtComposition.Text + "' ),'"+txtTax.Text+"') ";
             SqlDataAdapter cdn3 = new SqlDataAdapter(query3, conn);
             cdn3.SelectCommand.ExecuteNonQuery();
 
 
-            string query4 = "insert into tbl_MedicinesDate(Purschase_Date , Created_on,Expiry_Date,MedID) values ('" + Convert.ToDateTime( TextBox1.Text).ToString() + "' , '" + Convert.ToDateTime(TextBox2.Text).ToString() + "','"+ Convert.ToDateTime( TextBox3.Text).ToString()+"',(select MedID from tbl_medicines where Name='" + txtName.Text + "' and Composition='" + txtComposition.Text + "' and Description='" + txtdescription.Text + "' and Side_Effects='" + txtSideEffects.Text + "') )    ";
+            string query4 = "insert into tbl_MedicinesDate(Purschase_Date , Created_on,Expiry_Date,MedID) values ('" + Convert.ToDateTime( TextBox1.Text).ToString() + "' , '" + Convert.ToDateTime(TextBox2.Text).ToString() + "','"+ Convert.ToDateTime( TextBox3.Text).ToString()+"',(select MedID from tbl_medicines where Name='" + txtName.Text + "' and Composition='" + txtComposition.Text + "') )    ";
             SqlDataAdapter cdn4 = new SqlDataAdapter(query4, conn);
             cdn4.SelectCommand.ExecuteNonQuery();
 
@@ -202,8 +202,8 @@ namespace dbms
                 //}
                 //conn.Close();
 
-               
-            
+
+                ShowData();
             
 
         }

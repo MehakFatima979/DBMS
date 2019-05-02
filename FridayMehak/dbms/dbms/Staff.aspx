@@ -348,10 +348,10 @@
 
 
                <asp:Label ID="lblPwd" runat="server" Text="Password" Font-Bold="true" ></asp:Label><br />
-               <asp:TextBox ID="txtPwd" runat="server" Width="400px"></asp:TextBox><br /><br />
+               <asp:TextBox ID="txtPwd" runat="server" Width="400px" Visible="False"></asp:TextBox><br /><br />
 
                <asp:Label ID="lblConfirmPwd" runat="server" Text="Confirm Password" Font-Bold="true"  ></asp:Label><br />
-               <asp:TextBox ID="txtConfirmPwd" runat="server" Width="400px"></asp:TextBox><br /><br />
+               <asp:TextBox ID="txtConfirmPwd" runat="server" Width="400px" Visible="False"></asp:TextBox><br /><br />
 
 
                <asp:Label ID="lblSalary" runat="server" Text="Salary" Font-Bold="true" ></asp:Label><br />
@@ -374,7 +374,8 @@
                <asp:Button ID="Button1" runat="server" Text="Save Record" BorderStyle="Groove" BackColor="RoyalBlue" OnClientClick="Button1_Click" Height="35px" OnClick="Button1_Click" /><br /><br /><br />
                <asp:Label ID="Label10" runat="server" Text="" ForeColor="Blue"></asp:Label>
 
-               <asp:GridView ID="GridView1" runat="server" AutoGenerateColumns="false" CellPadding="15" OnRowCancelingEdit="GridView1_RowCancelingEdit" OnRowEditing="GridView1_RowEditing" OnRowUpdating="GridView1_RowUpdating" OnRowDeleting="GridView1_RowDeleting">  
+               <asp:GridView ID="GridView1" runat="server" AutoGenerateColumns="False" CellPadding="4" OnRowCancelingEdit="GridView1_RowCancelingEdit" OnRowEditing="GridView1_RowEditing" OnRowUpdating="GridView1_RowUpdating" OnRowDeleting="GridView1_RowDeleting" >  
+                  
               <Columns>
                   <asp:TemplateField>
                       <ItemTemplate>
@@ -402,14 +403,7 @@
                       </ItemTemplate>
                   </asp:TemplateField>
 
-                   <asp:TemplateField HeaderText="Name">  
-                    <ItemTemplate>  
-                        <asp:Label ID="lbl_Name" runat="server" Text='<%#Eval("Name") %>'></asp:Label>
-                    </ItemTemplate>  
-                    <EditItemTemplate>  
-                        <asp:TextBox ID="txt_Name" runat="server" Text='<%#Eval("Name") %>'></asp:TextBox>  
-                    </EditItemTemplate>  
-                </asp:TemplateField>  
+                
 
                       <asp:TemplateField HeaderText="Email">  
                     <ItemTemplate>  
@@ -460,16 +454,6 @@
                 </asp:TemplateField> 
 
 
-                  <asp:TemplateField HeaderText="Gender">  
-                    <ItemTemplate>  
-                        <asp:Label ID="lbl_Gender" runat="server" Text='<%#Eval("Gender") %>'></asp:Label>
-                    </ItemTemplate>  
-                    <EditItemTemplate>  
-                        <asp:TextBox ID="txt_Gender" runat="server" Text='<%#Eval("Gender") %>'></asp:TextBox>  
-                    </EditItemTemplate>  
-                </asp:TemplateField> 
-
-                  
                   <asp:TemplateField HeaderText="Salary">  
                     <ItemTemplate>  
                         <asp:Label ID="lbl_Salary" runat="server" Text='<%#Eval("Salary") %>'></asp:Label>
@@ -480,25 +464,22 @@
                 </asp:TemplateField> 
 
 
-
-
-                  <%--<asp:TemplateField HeaderText="Pharmacy">  
+                   <asp:TemplateField HeaderText="Gender">  
                     <ItemTemplate>  
-                        <asp:Label ID="lbl_Pharmacy" runat="server" Text='<%#Eval("Pharmacy") %>'></asp:Label>
+                        <asp:Label ID="lbl_Gender" runat="server" Text='<%#Eval("Value") %>'></asp:Label>
                     </ItemTemplate>  
                     <EditItemTemplate>  
-                        <asp:TextBox ID="txt_Pharmacy" runat="server" Text='<%#Eval("Pharmacy") %>'></asp:TextBox>  
+                        <asp:TextBox ID="txt_Gender" runat="server" Text='<%#Eval("Value") %>'></asp:TextBox>  
                     </EditItemTemplate>  
-                </asp:TemplateField> --%>
-
-
-
+                </asp:TemplateField> 
 
 
 
                        
               </Columns>
-             </asp:GridView><br /><br />
+                 
+             </asp:GridView><br />
+               <br />
 
 
 

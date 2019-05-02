@@ -10,7 +10,7 @@ namespace dbms
 {
     public partial class ResetPassword : System.Web.UI.Page
     {
-        SqlConnection conn = new SqlConnection(@"Data Source=HAIER-PC\SQLEXPRESS;Initial Catalog=DB6;Integrated Security=True");
+        SqlConnection conn = new SqlConnection(@"Data Source=DESKTOP-DOTOD0U\SQLEXPRESS;Initial Catalog=DB6;Integrated Security=True");
         protected void Page_Load(object sender, EventArgs e)
         {
 

@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="DB6Model" Alias="Self" p1:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:p1="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityContainer Name="DB6Entities" p1:LazyLoadingEnabled="true">
+    <EntitySet Name="tbl_medicines" EntityType="DB6Model.tbl_medicines" />
+    <EntitySet Name="tbl_MedicinesDate" EntityType="DB6Model.tbl_MedicinesDate" />
+  </EntityContainer>
+  <EntityType Name="tbl_medicines">
+    <Key>
+      <PropertyRef Name="MedID" />
+    </Key>
+    <Property Name="MedID" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" Nullable="false" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="Composition" Type="String" Nullable="false" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="Description" Type="String" Nullable="false" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="Side_Effects" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="tbl_MedicinesDate">
+    <Key>
+      <PropertyRef Name="DateID" />
+    </Key>
+    <Property Name="DateID" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+    <Property Name="Purschase_Date" Type="DateTime" Nullable="false" Precision="0" />
+    <Property Name="Created_on" Type="DateTime" Precision="0" />
+    <Property Name="Expiry_Date" Type="DateTime" Nullable="false" Precision="0" />
+    <Property Name="MedID" Type="Int32" Nullable="false" />
+  </EntityType>
+</Schema>

@@ -18,7 +18,7 @@ namespace dbms
             if (!Page.IsPostBack)
             { ShowData(); }
         }
-        SqlConnection conn = new SqlConnection(@"Data Source=HAIER-PC\SQLEXPRESS;Initial Catalog=DB6;Integrated Security=True");
+        SqlConnection conn = new SqlConnection(@"Data Source=DESKTOP-DOTOD0U\SQLEXPRESS;Initial Catalog=DB6;Integrated Security=True");
 
 
         private void ShowData()
@@ -26,7 +26,7 @@ namespace dbms
 
             dt = new DataTable();
             conn.Open();
-            adapt = new SqlDataAdapter("select * from tbl_Staff", conn);
+            adapt = new SqlDataAdapter("select tbl_Staff.*,tbl_Lookup.Value from tbl_Staff join tbl_Lookup on tbl_Lookup.LookupID=tbl_Staff.Gender", conn);
             adapt.Fill(dt);
             if (dt.Rows.Count > 0)
             {
@@ -47,12 +47,18 @@ namespace dbms
             //Finding the controls from Gridview for the row which is going to update  
             Label id = GridView1.Rows[e.RowIndex].FindControl("lbl_ID") as Label;
             TextBox name = GridView1.Rows[e.RowIndex].FindControl("txt_Name") as TextBox;
-            TextBox city = GridView1.Rows[e.RowIndex].FindControl("txt_City") as TextBox;
-            TextBox location = GridView1.Rows[e.RowIndex].FindControl("txt_Location") as TextBox;
+            TextBox email = GridView1.Rows[e.RowIndex].FindControl("txt_Email") as TextBox;
+            TextBox password = GridView1.Rows[e.RowIndex].FindControl("txt_Password") as TextBox;
+            TextBox confirmpassword = GridView1.Rows[e.RowIndex].FindControl("txt_Confirm_Password") as TextBox;
+            TextBox address = GridView1.Rows[e.RowIndex].FindControl("txt_Address") as TextBox;
+            TextBox phoneno = GridView1.Rows[e.RowIndex].FindControl("txt_Phoneno") as TextBox;
+            TextBox salary = GridView1.Rows[e.RowIndex].FindControl("txt_Salary") as TextBox;
+            TextBox Gender = GridView1.Rows[e.RowIndex].FindControl("txt_Gender") as TextBox;
+            
             conn.Open();
             //updating the record  
 
-            SqlCommand cmd = new SqlCommand("Update tbl_Staff set Name='" + txtName.Text + "',Email='" + txtEmail.Text + "' ,Password='" + txtPwd.Text + "' ,Confirm_Password='" + txtConfirmPwd.Text + "' ,Address='" + txtAddress.Text + "' ,Phoneno='" + txtPhone.Text + "' ,Gender= (select LookupID from tbl_Lookup where Value = '"+DropDownListGender.Text+"')  ,Salary='" + txtSalary.Text + "'  where StaffID=" + Convert.ToInt32(id.Text), conn);
+            SqlCommand cmd = new SqlCommand("Update tbl_Staff set Name='" + name.Text + "',Email='" + email.Text + "' ,Password='" + password.Text + "' ,Confirm_Password='" + confirmpassword.Text + "' ,Address='" + address.Text + "' ,Phoneno='" + phoneno.Text + "' ,Gender= (select LookupID from tbl_Lookup where Value = '" + Gender.Text + "')  ,Salary='" + salary.Text + "'  where StaffID=" + Convert.ToInt32(id.Text), conn);
             cmd.ExecuteNonQuery();
             conn.Close();
             //Setting the EditIndex property to -1 to cancel the Edit mode in Gridview  
@@ -76,7 +82,7 @@ namespace dbms
             conn.Open();
             Label l1 = GridView1.Rows[e.RowIndex].FindControl("lbl_ID") as Label;
 
-            SqlCommand cmd = new SqlCommand("delete from tbl_Pharmacy where PharmacyID=@id", conn);
+            SqlCommand cmd = new SqlCommand("delete from tbl_Staff where StaffID=@id", conn);
             //  cmd.CommandText = "delete from tbl_Pharmacy where PharmacyID=@id";
             cmd.Parameters.AddWithValue("@id", l1.Text);
             cmd.ExecuteNonQuery();
@@ -96,7 +102,7 @@ namespace dbms
                 {
                     //var Label = gvrow.FindControl("lbl_ID") as Label;
 
-                    SqlCommand cmd = new SqlCommand("delete from tbl_Pharmacy where PharmacyID=lbl_ID", conn);
+                    SqlCommand cmd = new SqlCommand("delete from tbl_Staff where StaffID=lbl_ID", conn);
                     //cmd.Parameters.AddWithValue("id", int.Parse(Label.Text));
                     conn.Open();
                     cmd.ExecuteNonQuery();
@@ -133,6 +139,7 @@ namespace dbms
                     cdn.SelectCommand.ExecuteNonQuery();
                     conn.Close();
                     Label10.Text = "Data Added Successfully";
+                    txtName.Text = txtAddress.Text = txtConfirmPwd.Text = txtEmail.Text = txtPhone.Text = txtPwd.Text = txtSalary.Text = "";
                     //TextBox1.Text = "";
                     //TextBox2.Text = "";
                     //TextBox3.Text = "";
@@ -143,7 +150,7 @@ namespace dbms
                     //DropDownList2.Text = "";
                     //DropDownList1.Text = "";
 
-               
+                    ShowData();
             
             //catch(Exception ex)
             //{

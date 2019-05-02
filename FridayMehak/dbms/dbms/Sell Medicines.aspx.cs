@@ -29,7 +29,7 @@ namespace dbms
 
             dt = new DataTable();
             conn.Open();
-            adapt = new SqlDataAdapter("select tbl_medicines.MedID,tbl_medicines.Name,tbl_MedicinePrice.Purchase_Price,tbl_MedicinePrice.Sale_Price,tbl_MedicinePrice.Tax,tbl_MedicinesDate.Purschase_Date,tbl_MedicinesDate.Created_on,tbl_MedicinesDate.Expiry_Date,tbl_MedicineSale.Sale_Date,tbl_Doctor.Name,tbl_Hospital.Name  from tbl_medicines join tbl_MedicinePrice on tbl_medicines.MedID=tbl_MedicinePrice.MedID join tbl_MedicinesDate on tbl_MedicinePrice.MedID=tbl_MedicinesDate.MedID join tbl_MedicineSale on tbl_MedicineSale.MedID= tbl_medicines.MedID join tbl_Doctor on tbl_Doctor.MedID= tbl_medicines.MedID join tbl_Hospital on tbl_Hospital.HospitalID=tbl_Doctor.HospitalID", conn);
+            adapt = new SqlDataAdapter("select tbl_medicines.MedID,tbl_medicines.Name,tbl_MedicinePrice.Purchase_Price,tbl_MedicinePrice.Tax,tbl_SalePrice.Sale_Price,tbl_MedicinesDate.Purschase_Date,tbl_MedicinesDate.Created_on,tbl_MedicinesDate.Expiry_Date,tbl_MedicineSale.Sale_Date,tbl_Doctor.DoctorName,tbl_Hospital.HospitalName  from tbl_medicines join tbl_MedicinePrice on tbl_medicines.MedID=tbl_MedicinePrice.MedID join tbl_SalePrice on tbl_medicines.MedID=tbl_SalePrice.MedID join tbl_MedicinesDate on tbl_MedicinePrice.MedID=tbl_MedicinesDate.MedID join tbl_MedicineSale on tbl_MedicineSale.MedID= tbl_medicines.MedID join tbl_Doctor on tbl_Doctor.MedID= tbl_medicines.MedID join tbl_Hospital on tbl_Hospital.HospitalID=tbl_Doctor.HospitalID", conn);
             adapt.Fill(dt);
             if (dt.Rows.Count > 0)
             {
@@ -69,21 +69,21 @@ namespace dbms
             SqlCommand cmd1 = new SqlCommand("Update tbl_MedicineSale set Sale_Date='" + Convert.ToDateTime(saledate.Text).ToString() + "'  where MedID=" + Convert.ToInt32(id.Text), conn);
             cmd1.ExecuteNonQuery();
 
-            SqlCommand cmd2 = new SqlCommand("Update tbl_MedicinePrice set Sale_Price='" + sale.Text.ToString() + "' where MedID=" + Convert.ToInt32(id.Text), conn);
+            SqlCommand cmd2 = new SqlCommand("Update tbl_SalePrice set Sale_Price='" + sale.Text.ToString() + "' where MedID=" + Convert.ToInt32(id.Text), conn);
             cmd2.ExecuteNonQuery();
             
 
-            SqlCommand cmd3 = new SqlCommand("Update tbl_Doctor  set Name='"+doc.Text+"' where HospitalID=(select HospitalID from tbl_Hospital where Name='"+hosp.Text+"') and MedID=" + Convert.ToInt32(id.Text), conn);
+            SqlCommand cmd3 = new SqlCommand("Update tbl_Doctor  set DoctorName='"+doc.Text+"' where HospitalID=(select Max(HospitalID) from tbl_Hospital where HospitalName='"+hosp.Text+"') and MedID=" + Convert.ToInt32(id.Text), conn);
             cmd3.ExecuteNonQuery();
-            
 
-            SqlCommand cmd4 = new SqlCommand("Update tbl_Hospital  set Name='" +hosp.Text + "'  where Name='"+hosp.Text , conn);
+
+            SqlCommand cmd4 = new SqlCommand("Update tbl_Hospital  set HospitalName='" + hosp.Text + "' where MedID =" + Convert.ToInt32(id.Text) , conn);
             cmd4.ExecuteNonQuery();
             conn.Close();
 
             //Setting the EditIndex property to -1 to cancel the Edit mode in Gridview  
             GridView1.EditIndex = -1;
-
+            txthospital.Text = txtMedName.Text = txtmedtx.Text = txtPurchase.Text = txtrecommended.Text = txtsale.Text = "";
             //Call ShowData method for displaying updated data  
             ShowData();
         }
@@ -107,25 +107,30 @@ namespace dbms
             cmd.Parameters.AddWithValue("@id", l1.Text);
             cmd.ExecuteNonQuery();
 
-            SqlCommand cmd1 = new SqlCommand("delete from tbl_MedicinePrice where MedID=@id", conn);
-            //  cmd.CommandText = "delete from tbl_Pharmacy where PharmacyID=@id";
-            cmd1.Parameters.AddWithValue("@id", l1.Text);
-            cmd1.ExecuteNonQuery();
+            //SqlCommand cmd1 = new SqlCommand("delete from tbl_MedicinePrice where MedID=@id", conn);
+            ////  cmd.CommandText = "delete from tbl_Pharmacy where PharmacyID=@id";
+            //cmd1.Parameters.AddWithValue("@id", l1.Text);
+            //cmd1.ExecuteNonQuery();
 
-            SqlCommand cmd3 = new SqlCommand("delete from tbl_MedicinesDate where MedID=@id", conn);
+            //SqlCommand cmd3 = new SqlCommand("delete from tbl_MedicinesDate where MedID=@id", conn);
+            ////  cmd.CommandText = "delete from tbl_Pharmacy where PharmacyID=@id";
+            //cmd3.Parameters.AddWithValue("@id", l1.Text);
+            //cmd3.ExecuteNonQuery();
+
+            SqlCommand cmd5 = new SqlCommand("delete from tbl_SalePrice where MedID=@id", conn);
             //  cmd.CommandText = "delete from tbl_Pharmacy where PharmacyID=@id";
-            cmd3.Parameters.AddWithValue("@id", l1.Text);
-            cmd3.ExecuteNonQuery();
+            cmd5.Parameters.AddWithValue("@id", l1.Text);
+            cmd5.ExecuteNonQuery();
 
             //SqlCommand cmd4 = new SqlCommand("delete from tbl_Hospital where Name=@name", conn);
             ////  cmd.CommandText = "delete from tbl_Pharmacy where PharmacyID=@id";
             //cmd4.Parameters.AddWithValue("@Name",hosp.Text);
             //cmd4.ExecuteNonQuery();
 
-            SqlCommand cmd5 = new SqlCommand("delete from tbl_Doctor where MedID=@id", conn);
+            SqlCommand cmd6 = new SqlCommand("delete from tbl_Doctor where MedID=@id", conn);
             //  cmd.CommandText = "delete from tbl_Pharmacy where PharmacyID=@id";
-            cmd5.Parameters.AddWithValue("@id", l1.Text);
-            cmd5.ExecuteNonQuery();
+            cmd6.Parameters.AddWithValue("@id", l1.Text);
+            cmd6.ExecuteNonQuery();
             conn.Close();
 
             ShowData();
@@ -156,31 +161,31 @@ namespace dbms
         {
             conn.Open();
 
-            string query1 = "insert into tbl_MedicineSale(Sale_Date,MedID) values ('"+Convert.ToDateTime(TextBox6.Text).ToString()+"',(select MedID from tbl_medicines where Name='"+txtMedName.Text+"'))";
+            string query1 = "insert into tbl_MedicineSale(Sale_Date,MedID) values ('"+Convert.ToDateTime(TextBox6.Text).ToString()+"',(select Max(MedID) from tbl_medicines where Name='"+txtMedName.Text+"'))";
             SqlDataAdapter cdn1 = new SqlDataAdapter(query1, conn);
             cdn1.SelectCommand.ExecuteNonQuery();
 
-            string query2 = "insert into tbl_MedicinePrice(Sale_Price,MedID,Purchase_Price,Tax) values ('" + txtsale.Text + "' ,(select MedID from tbl_medicines where Name='" + txtMedName.Text + "'),'"+txtPurchase.Text+"','"+txtmedtx.Text+"') ";
+            string query2 = "insert tbl_SalePrice(Sale_Price,MedID) values ('" + txtsale.Text + "',(select max(MedID) from tbl_medicines where Name='"+txtMedName.Text+"'))";
             SqlDataAdapter cdn2 = new SqlDataAdapter(query2, conn);
             cdn2.SelectCommand.ExecuteNonQuery();
 
-            string query4 = "insert into tbl_Hospital(Name) values ('"+txthospital.Text+"' )    ";
+            string query4 = "insert into tbl_Hospital(HospitalName,MedID) values ('" + txthospital.Text + "' ,(select max(MedID) from tbl_medicines where Name='" + txtMedName.Text + "'))    ";
             SqlDataAdapter cdn4 = new SqlDataAdapter(query4, conn);
             cdn4.SelectCommand.ExecuteNonQuery();
 
-            string query3 = "insert into tbl_Doctor(Name,MedID,HospitalID) values ('" + txtrecommended.Text + "',(select MedID from tbl_medicines where Name='" + txtMedName.Text + "'),(select HospitalID from tbl_Hospital where Name='"+txthospital.Text+"')) ";
+            string query3 = "insert into tbl_Doctor(DoctorName,MedID,HospitalID) values ('" + txtrecommended.Text + "',(select max(MedID) from tbl_medicines where Name='" + txtMedName.Text + "'),(select max(HospitalID) from tbl_Hospital where HospitalName='"+txthospital.Text+"')) ";
             SqlDataAdapter cdn3 = new SqlDataAdapter(query3, conn);
             cdn3.SelectCommand.ExecuteNonQuery();
 
-
+            conn.Close();
 
             lblSave.Text = "record saved successfully";
 
-
+            ShowData();
             //txtAlertQty.Text = txtCompany.Text = txtComposition.Text = txtdescription.Text = txtMedCode.Text = txtName.Text = txtPurchasePrice.Text = txtQuantity.Text = txtSideEffects.Text = txtTax.Text = "";
 
 
-            conn.Close();
+           
         }
         //protected void LinkButton4_Click(object sender, EventArgs e)
         //{

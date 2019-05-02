@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="DB6Model.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2008" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityContainer Name="DB6ModelStoreContainer">
+    <EntitySet Name="tbl_medicines" EntityType="DB6Model.Store.tbl_medicines" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="tbl_MedicinesDate" EntityType="DB6Model.Store.tbl_MedicinesDate" store:Type="Tables" Schema="dbo" />
+  </EntityContainer>
+  <EntityType Name="tbl_medicines">
+    <Key>
+      <PropertyRef Name="MedID" />
+    </Key>
+    <Property Name="MedID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="Composition" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="Description" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="Side_Effects" Type="nvarchar(max)" />
+  </EntityType>
+  <EntityType Name="tbl_MedicinesDate">
+    <Key>
+      <PropertyRef Name="DateID" />
+    </Key>
+    <Property Name="DateID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="Purschase_Date" Type="date" Nullable="false" />
+    <Property Name="Created_on" Type="date" />
+    <Property Name="Expiry_Date" Type="date" Nullable="false" />
+    <Property Name="MedID" Type="int" Nullable="false" />
+  </EntityType>
+</Schema>

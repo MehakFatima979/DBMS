@@ -248,13 +248,6 @@
                <br /><br />
 
 
-               <asp:Label ID="lblType" runat="server" Text="User Type" Font-Bold="true"></asp:Label><br />
-
-               <asp:DropDownList ID="DropDownListUserType" runat="server" Width="400px">
-                   <asp:ListItem>Admin</asp:ListItem>
-                   <asp:ListItem>User</asp:ListItem>
-               </asp:DropDownList>
-               <br /><br />
 
                <%--<asp:Label ID="lblConfirmPwd" runat="server" Text="Confirm Password" Font-Bold="true"></asp:Label><br />
                <asp:TextBox ID="txtConfirmPwd" runat="server" Width="400px" TextMode="Password"></asp:TextBox>
