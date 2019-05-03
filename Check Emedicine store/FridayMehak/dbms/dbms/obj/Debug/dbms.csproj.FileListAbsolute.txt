@@ -1,0 +1,489 @@
+c:\users\mehkf\documents\visual studio 2015\Projects\dbms\dbms\bin\ApplicationInsights.config
+c:\users\mehkf\documents\visual studio 2015\Projects\dbms\dbms\bin\roslyn\csc.exe
+c:\users\mehkf\documents\visual studio 2015\Projects\dbms\dbms\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+c:\users\mehkf\documents\visual studio 2015\Projects\dbms\dbms\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+c:\users\mehkf\documents\visual studio 2015\Projects\dbms\dbms\bin\roslyn\Microsoft.CodeAnalysis.dll
+c:\users\mehkf\documents\visual studio 2015\Projects\dbms\dbms\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+c:\users\mehkf\documents\visual studio 2015\Projects\dbms\dbms\bin\roslyn\Microsoft.CSharp.Core.targets
+c:\users\mehkf\documents\visual studio 2015\Projects\dbms\dbms\bin\roslyn\Microsoft.VisualBasic.Core.targets
+c:\users\mehkf\documents\visual studio 2015\Projects\dbms\dbms\bin\roslyn\System.Collections.Immutable.dll
+c:\users\mehkf\documents\visual studio 2015\Projects\dbms\dbms\bin\roslyn\System.Reflection.Metadata.dll
+c:\users\mehkf\documents\visual studio 2015\Projects\dbms\dbms\bin\roslyn\vbc.exe
+c:\users\mehkf\documents\visual studio 2015\Projects\dbms\dbms\bin\roslyn\VBCSCompiler.exe
+c:\users\mehkf\documents\visual studio 2015\Projects\dbms\dbms\bin\roslyn\VBCSCompiler.exe.config
+c:\users\mehkf\documents\visual studio 2015\Projects\dbms\dbms\bin\dbms.dll.config
+c:\users\mehkf\documents\visual studio 2015\Projects\dbms\dbms\bin\dbms.dll
+c:\users\mehkf\documents\visual studio 2015\Projects\dbms\dbms\bin\dbms.pdb
+c:\users\mehkf\documents\visual studio 2015\Projects\dbms\dbms\bin\Antlr3.Runtime.dll
+c:\users\mehkf\documents\visual studio 2015\Projects\dbms\dbms\bin\AspNet.ScriptManager.bootstrap.dll
+c:\users\mehkf\documents\visual studio 2015\Projects\dbms\dbms\bin\AspNet.ScriptManager.jQuery.dll
+c:\users\mehkf\documents\visual studio 2015\Projects\dbms\dbms\bin\EntityFramework.dll
+c:\users\mehkf\documents\visual studio 2015\Projects\dbms\dbms\bin\EntityFramework.SqlServer.dll
+c:\users\mehkf\documents\visual studio 2015\Projects\dbms\dbms\bin\Microsoft.AI.Agent.Intercept.dll
+c:\users\mehkf\documents\visual studio 2015\Projects\dbms\dbms\bin\Microsoft.AI.DependencyCollector.dll
+c:\users\mehkf\documents\visual studio 2015\Projects\dbms\dbms\bin\Microsoft.AI.PerfCounterCollector.dll
+c:\users\mehkf\documents\visual studio 2015\Projects\dbms\dbms\bin\Microsoft.AI.ServerTelemetryChannel.dll
+c:\users\mehkf\documents\visual studio 2015\Projects\dbms\dbms\bin\Microsoft.AI.Web.dll
+c:\users\mehkf\documents\visual studio 2015\Projects\dbms\dbms\bin\Microsoft.AI.WindowsServer.dll
+c:\users\mehkf\documents\visual studio 2015\Projects\dbms\dbms\bin\Microsoft.ApplicationInsights.dll
+c:\users\mehkf\documents\visual studio 2015\Projects\dbms\dbms\bin\Microsoft.AspNet.FriendlyUrls.dll
+c:\users\mehkf\documents\visual studio 2015\Projects\dbms\dbms\bin\Microsoft.AspNet.Identity.Core.dll
+c:\users\mehkf\documents\visual studio 2015\Projects\dbms\dbms\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+c:\users\mehkf\documents\visual studio 2015\Projects\dbms\dbms\bin\Microsoft.AspNet.Identity.Owin.dll
+c:\users\mehkf\documents\visual studio 2015\Projects\dbms\dbms\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+c:\users\mehkf\documents\visual studio 2015\Projects\dbms\dbms\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+c:\users\mehkf\documents\visual studio 2015\Projects\dbms\dbms\bin\Microsoft.Owin.dll
+c:\users\mehkf\documents\visual studio 2015\Projects\dbms\dbms\bin\Microsoft.Owin.Host.SystemWeb.dll
+c:\users\mehkf\documents\visual studio 2015\Projects\dbms\dbms\bin\Microsoft.Owin.Security.Cookies.dll
+c:\users\mehkf\documents\visual studio 2015\Projects\dbms\dbms\bin\Microsoft.Owin.Security.dll
+c:\users\mehkf\documents\visual studio 2015\Projects\dbms\dbms\bin\Microsoft.Owin.Security.Facebook.dll
+c:\users\mehkf\documents\visual studio 2015\Projects\dbms\dbms\bin\Microsoft.Owin.Security.Google.dll
+c:\users\mehkf\documents\visual studio 2015\Projects\dbms\dbms\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+c:\users\mehkf\documents\visual studio 2015\Projects\dbms\dbms\bin\Microsoft.Owin.Security.OAuth.dll
+c:\users\mehkf\documents\visual studio 2015\Projects\dbms\dbms\bin\Microsoft.Owin.Security.Twitter.dll
+c:\users\mehkf\documents\visual studio 2015\Projects\dbms\dbms\bin\Microsoft.ScriptManager.MSAjax.dll
+c:\users\mehkf\documents\visual studio 2015\Projects\dbms\dbms\bin\Microsoft.ScriptManager.WebForms.dll
+c:\users\mehkf\documents\visual studio 2015\Projects\dbms\dbms\bin\Microsoft.Web.Infrastructure.dll
+c:\users\mehkf\documents\visual studio 2015\Projects\dbms\dbms\bin\Newtonsoft.Json.dll
+c:\users\mehkf\documents\visual studio 2015\Projects\dbms\dbms\bin\Owin.dll
+c:\users\mehkf\documents\visual studio 2015\Projects\dbms\dbms\bin\System.Web.Optimization.dll
+c:\users\mehkf\documents\visual studio 2015\Projects\dbms\dbms\bin\System.Web.Providers.dll
+c:\users\mehkf\documents\visual studio 2015\Projects\dbms\dbms\bin\WebGrease.dll
+c:\users\mehkf\documents\visual studio 2015\Projects\dbms\dbms\bin\Microsoft.AI.DependencyCollector.xml
+c:\users\mehkf\documents\visual studio 2015\Projects\dbms\dbms\bin\Microsoft.AI.ServerTelemetryChannel.xml
+c:\users\mehkf\documents\visual studio 2015\Projects\dbms\dbms\bin\Microsoft.AI.Web.xml
+c:\users\mehkf\documents\visual studio 2015\Projects\dbms\dbms\bin\Microsoft.AI.WindowsServer.xml
+c:\users\mehkf\documents\visual studio 2015\Projects\dbms\dbms\bin\Microsoft.ApplicationInsights.xml
+c:\users\mehkf\documents\visual studio 2015\Projects\dbms\dbms\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+c:\users\mehkf\documents\visual studio 2015\Projects\dbms\dbms\bin\System.Web.Optimization.xml
+c:\users\mehkf\documents\visual studio 2015\Projects\dbms\dbms\bin\Antlr3.Runtime.pdb
+c:\users\mehkf\documents\visual studio 2015\Projects\dbms\dbms\bin\Newtonsoft.Json.xml
+c:\users\mehkf\documents\visual studio 2015\Projects\dbms\dbms\bin\Microsoft.AspNet.FriendlyUrls.xml
+c:\users\mehkf\documents\visual studio 2015\Projects\dbms\dbms\bin\EntityFramework.xml
+c:\users\mehkf\documents\visual studio 2015\Projects\dbms\dbms\bin\EntityFramework.SqlServer.xml
+c:\users\mehkf\documents\visual studio 2015\Projects\dbms\dbms\bin\Microsoft.AspNet.Identity.Core.xml
+c:\users\mehkf\documents\visual studio 2015\Projects\dbms\dbms\bin\Microsoft.AspNet.Identity.Owin.xml
+c:\users\mehkf\documents\visual studio 2015\Projects\dbms\dbms\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+c:\users\mehkf\documents\visual studio 2015\Projects\dbms\dbms\bin\System.Web.Providers.xml
+c:\users\mehkf\documents\visual studio 2015\Projects\dbms\dbms\bin\Microsoft.Owin.xml
+c:\users\mehkf\documents\visual studio 2015\Projects\dbms\dbms\bin\Microsoft.Owin.Host.SystemWeb.xml
+c:\users\mehkf\documents\visual studio 2015\Projects\dbms\dbms\bin\Microsoft.Owin.Security.xml
+c:\users\mehkf\documents\visual studio 2015\Projects\dbms\dbms\bin\Microsoft.Owin.Security.Facebook.xml
+c:\users\mehkf\documents\visual studio 2015\Projects\dbms\dbms\bin\Microsoft.Owin.Security.Cookies.xml
+c:\users\mehkf\documents\visual studio 2015\Projects\dbms\dbms\bin\Microsoft.Owin.Security.Google.xml
+c:\users\mehkf\documents\visual studio 2015\Projects\dbms\dbms\bin\Microsoft.Owin.Security.Twitter.xml
+c:\users\mehkf\documents\visual studio 2015\Projects\dbms\dbms\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+c:\users\mehkf\documents\visual studio 2015\Projects\dbms\dbms\bin\Microsoft.Owin.Security.OAuth.xml
+c:\users\mehkf\documents\visual studio 2015\Projects\dbms\dbms\obj\Debug\dbms.csprojResolveAssemblyReference.cache
+c:\users\mehkf\documents\visual studio 2015\Projects\dbms\dbms\obj\Debug\dbms.dll
+c:\users\mehkf\documents\visual studio 2015\Projects\dbms\dbms\obj\Debug\dbms.pdb
+C:\Users\anumt\OneDrive\Desktop\FridayMehak\dbms\dbms\bin\ApplicationInsights.config
+C:\Users\anumt\OneDrive\Desktop\FridayMehak\dbms\dbms\bin\roslyn\csc.exe
+C:\Users\anumt\OneDrive\Desktop\FridayMehak\dbms\dbms\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\anumt\OneDrive\Desktop\FridayMehak\dbms\dbms\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\anumt\OneDrive\Desktop\FridayMehak\dbms\dbms\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\anumt\OneDrive\Desktop\FridayMehak\dbms\dbms\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\anumt\OneDrive\Desktop\FridayMehak\dbms\dbms\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\anumt\OneDrive\Desktop\FridayMehak\dbms\dbms\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\anumt\OneDrive\Desktop\FridayMehak\dbms\dbms\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\anumt\OneDrive\Desktop\FridayMehak\dbms\dbms\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\anumt\OneDrive\Desktop\FridayMehak\dbms\dbms\bin\roslyn\vbc.exe
+C:\Users\anumt\OneDrive\Desktop\FridayMehak\dbms\dbms\bin\roslyn\VBCSCompiler.exe
+C:\Users\anumt\OneDrive\Desktop\FridayMehak\dbms\dbms\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\anumt\OneDrive\Desktop\FridayMehak\dbms\dbms\bin\dbms.dll.config
+C:\Users\anumt\OneDrive\Desktop\FridayMehak\dbms\dbms\bin\dbms.dll
+C:\Users\anumt\OneDrive\Desktop\FridayMehak\dbms\dbms\bin\dbms.pdb
+C:\Users\anumt\OneDrive\Desktop\FridayMehak\dbms\dbms\bin\Antlr3.Runtime.dll
+C:\Users\anumt\OneDrive\Desktop\FridayMehak\dbms\dbms\bin\AspNet.ScriptManager.bootstrap.dll
+C:\Users\anumt\OneDrive\Desktop\FridayMehak\dbms\dbms\bin\AspNet.ScriptManager.jQuery.dll
+C:\Users\anumt\OneDrive\Desktop\FridayMehak\dbms\dbms\bin\EntityFramework.dll
+C:\Users\anumt\OneDrive\Desktop\FridayMehak\dbms\dbms\bin\EntityFramework.SqlServer.dll
+C:\Users\anumt\OneDrive\Desktop\FridayMehak\dbms\dbms\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\anumt\OneDrive\Desktop\FridayMehak\dbms\dbms\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\anumt\OneDrive\Desktop\FridayMehak\dbms\dbms\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\anumt\OneDrive\Desktop\FridayMehak\dbms\dbms\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\anumt\OneDrive\Desktop\FridayMehak\dbms\dbms\bin\Microsoft.AI.Web.dll
+C:\Users\anumt\OneDrive\Desktop\FridayMehak\dbms\dbms\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\anumt\OneDrive\Desktop\FridayMehak\dbms\dbms\bin\Microsoft.ApplicationInsights.dll
+C:\Users\anumt\OneDrive\Desktop\FridayMehak\dbms\dbms\bin\Microsoft.AspNet.FriendlyUrls.dll
+C:\Users\anumt\OneDrive\Desktop\FridayMehak\dbms\dbms\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\anumt\OneDrive\Desktop\FridayMehak\dbms\dbms\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\anumt\OneDrive\Desktop\FridayMehak\dbms\dbms\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\anumt\OneDrive\Desktop\FridayMehak\dbms\dbms\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+C:\Users\anumt\OneDrive\Desktop\FridayMehak\dbms\dbms\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\anumt\OneDrive\Desktop\FridayMehak\dbms\dbms\bin\Microsoft.Owin.dll
+C:\Users\anumt\OneDrive\Desktop\FridayMehak\dbms\dbms\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\anumt\OneDrive\Desktop\FridayMehak\dbms\dbms\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\anumt\OneDrive\Desktop\FridayMehak\dbms\dbms\bin\Microsoft.Owin.Security.dll
+C:\Users\anumt\OneDrive\Desktop\FridayMehak\dbms\dbms\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\anumt\OneDrive\Desktop\FridayMehak\dbms\dbms\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\anumt\OneDrive\Desktop\FridayMehak\dbms\dbms\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\anumt\OneDrive\Desktop\FridayMehak\dbms\dbms\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\anumt\OneDrive\Desktop\FridayMehak\dbms\dbms\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\anumt\OneDrive\Desktop\FridayMehak\dbms\dbms\bin\Microsoft.ScriptManager.MSAjax.dll
+C:\Users\anumt\OneDrive\Desktop\FridayMehak\dbms\dbms\bin\Microsoft.ScriptManager.WebForms.dll
+C:\Users\anumt\OneDrive\Desktop\FridayMehak\dbms\dbms\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\anumt\OneDrive\Desktop\FridayMehak\dbms\dbms\bin\Newtonsoft.Json.dll
+C:\Users\anumt\OneDrive\Desktop\FridayMehak\dbms\dbms\bin\Owin.dll
+C:\Users\anumt\OneDrive\Desktop\FridayMehak\dbms\dbms\bin\System.Web.Optimization.dll
+C:\Users\anumt\OneDrive\Desktop\FridayMehak\dbms\dbms\bin\System.Web.Providers.dll
+C:\Users\anumt\OneDrive\Desktop\FridayMehak\dbms\dbms\bin\WebGrease.dll
+C:\Users\anumt\OneDrive\Desktop\FridayMehak\dbms\dbms\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\anumt\OneDrive\Desktop\FridayMehak\dbms\dbms\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\anumt\OneDrive\Desktop\FridayMehak\dbms\dbms\bin\Microsoft.AI.Web.xml
+C:\Users\anumt\OneDrive\Desktop\FridayMehak\dbms\dbms\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\anumt\OneDrive\Desktop\FridayMehak\dbms\dbms\bin\Microsoft.ApplicationInsights.xml
+C:\Users\anumt\OneDrive\Desktop\FridayMehak\dbms\dbms\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\anumt\OneDrive\Desktop\FridayMehak\dbms\dbms\bin\System.Web.Optimization.xml
+C:\Users\anumt\OneDrive\Desktop\FridayMehak\dbms\dbms\bin\Antlr3.Runtime.pdb
+C:\Users\anumt\OneDrive\Desktop\FridayMehak\dbms\dbms\bin\Newtonsoft.Json.xml
+C:\Users\anumt\OneDrive\Desktop\FridayMehak\dbms\dbms\bin\Microsoft.AspNet.FriendlyUrls.xml
+C:\Users\anumt\OneDrive\Desktop\FridayMehak\dbms\dbms\bin\EntityFramework.xml
+C:\Users\anumt\OneDrive\Desktop\FridayMehak\dbms\dbms\bin\EntityFramework.SqlServer.xml
+C:\Users\anumt\OneDrive\Desktop\FridayMehak\dbms\dbms\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\anumt\OneDrive\Desktop\FridayMehak\dbms\dbms\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\anumt\OneDrive\Desktop\FridayMehak\dbms\dbms\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\anumt\OneDrive\Desktop\FridayMehak\dbms\dbms\bin\System.Web.Providers.xml
+C:\Users\anumt\OneDrive\Desktop\FridayMehak\dbms\dbms\bin\Microsoft.Owin.xml
+C:\Users\anumt\OneDrive\Desktop\FridayMehak\dbms\dbms\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\anumt\OneDrive\Desktop\FridayMehak\dbms\dbms\bin\Microsoft.Owin.Security.xml
+C:\Users\anumt\OneDrive\Desktop\FridayMehak\dbms\dbms\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\anumt\OneDrive\Desktop\FridayMehak\dbms\dbms\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\anumt\OneDrive\Desktop\FridayMehak\dbms\dbms\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\anumt\OneDrive\Desktop\FridayMehak\dbms\dbms\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\anumt\OneDrive\Desktop\FridayMehak\dbms\dbms\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\anumt\OneDrive\Desktop\FridayMehak\dbms\dbms\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\anumt\OneDrive\Desktop\FridayMehak\dbms\dbms\obj\Debug\dbms.csprojResolveAssemblyReference.cache
+C:\Users\anumt\OneDrive\Desktop\FridayMehak\dbms\dbms\obj\Debug\dbms.dll
+C:\Users\anumt\OneDrive\Desktop\FridayMehak\dbms\dbms\obj\Debug\dbms.pdb
+C:\Users\anumt\OneDrive\Desktop\Saturday Clone\DBMS\FridayMehak\dbms\dbms\bin\ApplicationInsights.config
+C:\Users\anumt\OneDrive\Desktop\Saturday Clone\DBMS\FridayMehak\dbms\dbms\bin\roslyn\csc.exe
+C:\Users\anumt\OneDrive\Desktop\Saturday Clone\DBMS\FridayMehak\dbms\dbms\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\anumt\OneDrive\Desktop\Saturday Clone\DBMS\FridayMehak\dbms\dbms\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\anumt\OneDrive\Desktop\Saturday Clone\DBMS\FridayMehak\dbms\dbms\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\anumt\OneDrive\Desktop\Saturday Clone\DBMS\FridayMehak\dbms\dbms\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\anumt\OneDrive\Desktop\Saturday Clone\DBMS\FridayMehak\dbms\dbms\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\anumt\OneDrive\Desktop\Saturday Clone\DBMS\FridayMehak\dbms\dbms\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\anumt\OneDrive\Desktop\Saturday Clone\DBMS\FridayMehak\dbms\dbms\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\anumt\OneDrive\Desktop\Saturday Clone\DBMS\FridayMehak\dbms\dbms\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\anumt\OneDrive\Desktop\Saturday Clone\DBMS\FridayMehak\dbms\dbms\bin\roslyn\vbc.exe
+C:\Users\anumt\OneDrive\Desktop\Saturday Clone\DBMS\FridayMehak\dbms\dbms\bin\roslyn\VBCSCompiler.exe
+C:\Users\anumt\OneDrive\Desktop\Saturday Clone\DBMS\FridayMehak\dbms\dbms\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\anumt\OneDrive\Desktop\Saturday Clone\DBMS\FridayMehak\dbms\dbms\bin\dbms.dll.config
+C:\Users\anumt\OneDrive\Desktop\Saturday Clone\DBMS\FridayMehak\dbms\dbms\bin\dbms.dll
+C:\Users\anumt\OneDrive\Desktop\Saturday Clone\DBMS\FridayMehak\dbms\dbms\bin\dbms.pdb
+C:\Users\anumt\OneDrive\Desktop\Saturday Clone\DBMS\FridayMehak\dbms\dbms\bin\Antlr3.Runtime.dll
+C:\Users\anumt\OneDrive\Desktop\Saturday Clone\DBMS\FridayMehak\dbms\dbms\bin\AspNet.ScriptManager.bootstrap.dll
+C:\Users\anumt\OneDrive\Desktop\Saturday Clone\DBMS\FridayMehak\dbms\dbms\bin\AspNet.ScriptManager.jQuery.dll
+C:\Users\anumt\OneDrive\Desktop\Saturday Clone\DBMS\FridayMehak\dbms\dbms\bin\EntityFramework.dll
+C:\Users\anumt\OneDrive\Desktop\Saturday Clone\DBMS\FridayMehak\dbms\dbms\bin\EntityFramework.SqlServer.dll
+C:\Users\anumt\OneDrive\Desktop\Saturday Clone\DBMS\FridayMehak\dbms\dbms\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\anumt\OneDrive\Desktop\Saturday Clone\DBMS\FridayMehak\dbms\dbms\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\anumt\OneDrive\Desktop\Saturday Clone\DBMS\FridayMehak\dbms\dbms\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\anumt\OneDrive\Desktop\Saturday Clone\DBMS\FridayMehak\dbms\dbms\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\anumt\OneDrive\Desktop\Saturday Clone\DBMS\FridayMehak\dbms\dbms\bin\Microsoft.AI.Web.dll
+C:\Users\anumt\OneDrive\Desktop\Saturday Clone\DBMS\FridayMehak\dbms\dbms\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\anumt\OneDrive\Desktop\Saturday Clone\DBMS\FridayMehak\dbms\dbms\bin\Microsoft.ApplicationInsights.dll
+C:\Users\anumt\OneDrive\Desktop\Saturday Clone\DBMS\FridayMehak\dbms\dbms\bin\Microsoft.AspNet.FriendlyUrls.dll
+C:\Users\anumt\OneDrive\Desktop\Saturday Clone\DBMS\FridayMehak\dbms\dbms\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\anumt\OneDrive\Desktop\Saturday Clone\DBMS\FridayMehak\dbms\dbms\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\anumt\OneDrive\Desktop\Saturday Clone\DBMS\FridayMehak\dbms\dbms\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\anumt\OneDrive\Desktop\Saturday Clone\DBMS\FridayMehak\dbms\dbms\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+C:\Users\anumt\OneDrive\Desktop\Saturday Clone\DBMS\FridayMehak\dbms\dbms\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\anumt\OneDrive\Desktop\Saturday Clone\DBMS\FridayMehak\dbms\dbms\bin\Microsoft.Owin.dll
+C:\Users\anumt\OneDrive\Desktop\Saturday Clone\DBMS\FridayMehak\dbms\dbms\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\anumt\OneDrive\Desktop\Saturday Clone\DBMS\FridayMehak\dbms\dbms\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\anumt\OneDrive\Desktop\Saturday Clone\DBMS\FridayMehak\dbms\dbms\bin\Microsoft.Owin.Security.dll
+C:\Users\anumt\OneDrive\Desktop\Saturday Clone\DBMS\FridayMehak\dbms\dbms\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\anumt\OneDrive\Desktop\Saturday Clone\DBMS\FridayMehak\dbms\dbms\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\anumt\OneDrive\Desktop\Saturday Clone\DBMS\FridayMehak\dbms\dbms\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\anumt\OneDrive\Desktop\Saturday Clone\DBMS\FridayMehak\dbms\dbms\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\anumt\OneDrive\Desktop\Saturday Clone\DBMS\FridayMehak\dbms\dbms\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\anumt\OneDrive\Desktop\Saturday Clone\DBMS\FridayMehak\dbms\dbms\bin\Microsoft.ScriptManager.MSAjax.dll
+C:\Users\anumt\OneDrive\Desktop\Saturday Clone\DBMS\FridayMehak\dbms\dbms\bin\Microsoft.ScriptManager.WebForms.dll
+C:\Users\anumt\OneDrive\Desktop\Saturday Clone\DBMS\FridayMehak\dbms\dbms\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\anumt\OneDrive\Desktop\Saturday Clone\DBMS\FridayMehak\dbms\dbms\bin\Newtonsoft.Json.dll
+C:\Users\anumt\OneDrive\Desktop\Saturday Clone\DBMS\FridayMehak\dbms\dbms\bin\Owin.dll
+C:\Users\anumt\OneDrive\Desktop\Saturday Clone\DBMS\FridayMehak\dbms\dbms\bin\System.Web.Optimization.dll
+C:\Users\anumt\OneDrive\Desktop\Saturday Clone\DBMS\FridayMehak\dbms\dbms\bin\System.Web.Providers.dll
+C:\Users\anumt\OneDrive\Desktop\Saturday Clone\DBMS\FridayMehak\dbms\dbms\bin\WebGrease.dll
+C:\Users\anumt\OneDrive\Desktop\Saturday Clone\DBMS\FridayMehak\dbms\dbms\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\anumt\OneDrive\Desktop\Saturday Clone\DBMS\FridayMehak\dbms\dbms\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\anumt\OneDrive\Desktop\Saturday Clone\DBMS\FridayMehak\dbms\dbms\bin\Microsoft.AI.Web.xml
+C:\Users\anumt\OneDrive\Desktop\Saturday Clone\DBMS\FridayMehak\dbms\dbms\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\anumt\OneDrive\Desktop\Saturday Clone\DBMS\FridayMehak\dbms\dbms\bin\Microsoft.ApplicationInsights.xml
+C:\Users\anumt\OneDrive\Desktop\Saturday Clone\DBMS\FridayMehak\dbms\dbms\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\anumt\OneDrive\Desktop\Saturday Clone\DBMS\FridayMehak\dbms\dbms\bin\System.Web.Optimization.xml
+C:\Users\anumt\OneDrive\Desktop\Saturday Clone\DBMS\FridayMehak\dbms\dbms\bin\Antlr3.Runtime.pdb
+C:\Users\anumt\OneDrive\Desktop\Saturday Clone\DBMS\FridayMehak\dbms\dbms\bin\Newtonsoft.Json.xml
+C:\Users\anumt\OneDrive\Desktop\Saturday Clone\DBMS\FridayMehak\dbms\dbms\bin\Microsoft.AspNet.FriendlyUrls.xml
+C:\Users\anumt\OneDrive\Desktop\Saturday Clone\DBMS\FridayMehak\dbms\dbms\bin\EntityFramework.xml
+C:\Users\anumt\OneDrive\Desktop\Saturday Clone\DBMS\FridayMehak\dbms\dbms\bin\EntityFramework.SqlServer.xml
+C:\Users\anumt\OneDrive\Desktop\Saturday Clone\DBMS\FridayMehak\dbms\dbms\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\anumt\OneDrive\Desktop\Saturday Clone\DBMS\FridayMehak\dbms\dbms\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\anumt\OneDrive\Desktop\Saturday Clone\DBMS\FridayMehak\dbms\dbms\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\anumt\OneDrive\Desktop\Saturday Clone\DBMS\FridayMehak\dbms\dbms\bin\System.Web.Providers.xml
+C:\Users\anumt\OneDrive\Desktop\Saturday Clone\DBMS\FridayMehak\dbms\dbms\bin\Microsoft.Owin.xml
+C:\Users\anumt\OneDrive\Desktop\Saturday Clone\DBMS\FridayMehak\dbms\dbms\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\anumt\OneDrive\Desktop\Saturday Clone\DBMS\FridayMehak\dbms\dbms\bin\Microsoft.Owin.Security.xml
+C:\Users\anumt\OneDrive\Desktop\Saturday Clone\DBMS\FridayMehak\dbms\dbms\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\anumt\OneDrive\Desktop\Saturday Clone\DBMS\FridayMehak\dbms\dbms\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\anumt\OneDrive\Desktop\Saturday Clone\DBMS\FridayMehak\dbms\dbms\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\anumt\OneDrive\Desktop\Saturday Clone\DBMS\FridayMehak\dbms\dbms\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\anumt\OneDrive\Desktop\Saturday Clone\DBMS\FridayMehak\dbms\dbms\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\anumt\OneDrive\Desktop\Saturday Clone\DBMS\FridayMehak\dbms\dbms\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\anumt\OneDrive\Desktop\Saturday Clone\DBMS\FridayMehak\dbms\dbms\obj\Debug\dbms.csprojResolveAssemblyReference.cache
+C:\Users\anumt\OneDrive\Desktop\Saturday Clone\DBMS\FridayMehak\dbms\dbms\obj\Debug\dbms.dll
+C:\Users\anumt\OneDrive\Desktop\Saturday Clone\DBMS\FridayMehak\dbms\dbms\obj\Debug\dbms.pdb
+C:\Git\DBMS\FridayMehak\dbms\dbms\bin\ApplicationInsights.config
+C:\Git\DBMS\FridayMehak\dbms\dbms\bin\roslyn\csc.exe
+C:\Git\DBMS\FridayMehak\dbms\dbms\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Git\DBMS\FridayMehak\dbms\dbms\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Git\DBMS\FridayMehak\dbms\dbms\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Git\DBMS\FridayMehak\dbms\dbms\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Git\DBMS\FridayMehak\dbms\dbms\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Git\DBMS\FridayMehak\dbms\dbms\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Git\DBMS\FridayMehak\dbms\dbms\bin\roslyn\System.Collections.Immutable.dll
+C:\Git\DBMS\FridayMehak\dbms\dbms\bin\roslyn\System.Reflection.Metadata.dll
+C:\Git\DBMS\FridayMehak\dbms\dbms\bin\roslyn\vbc.exe
+C:\Git\DBMS\FridayMehak\dbms\dbms\bin\roslyn\VBCSCompiler.exe
+C:\Git\DBMS\FridayMehak\dbms\dbms\bin\roslyn\VBCSCompiler.exe.config
+C:\Git\DBMS\FridayMehak\dbms\dbms\bin\dbms.dll
+C:\Git\DBMS\FridayMehak\dbms\dbms\bin\dbms.pdb
+C:\Git\DBMS\FridayMehak\dbms\dbms\bin\Antlr3.Runtime.dll
+C:\Git\DBMS\FridayMehak\dbms\dbms\bin\AspNet.ScriptManager.bootstrap.dll
+C:\Git\DBMS\FridayMehak\dbms\dbms\bin\AspNet.ScriptManager.jQuery.dll
+C:\Git\DBMS\FridayMehak\dbms\dbms\bin\EntityFramework.dll
+C:\Git\DBMS\FridayMehak\dbms\dbms\bin\EntityFramework.SqlServer.dll
+C:\Git\DBMS\FridayMehak\dbms\dbms\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Git\DBMS\FridayMehak\dbms\dbms\bin\Microsoft.AI.DependencyCollector.dll
+C:\Git\DBMS\FridayMehak\dbms\dbms\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Git\DBMS\FridayMehak\dbms\dbms\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Git\DBMS\FridayMehak\dbms\dbms\bin\Microsoft.AI.Web.dll
+C:\Git\DBMS\FridayMehak\dbms\dbms\bin\Microsoft.AI.WindowsServer.dll
+C:\Git\DBMS\FridayMehak\dbms\dbms\bin\Microsoft.ApplicationInsights.dll
+C:\Git\DBMS\FridayMehak\dbms\dbms\bin\Microsoft.AspNet.FriendlyUrls.dll
+C:\Git\DBMS\FridayMehak\dbms\dbms\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Git\DBMS\FridayMehak\dbms\dbms\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Git\DBMS\FridayMehak\dbms\dbms\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Git\DBMS\FridayMehak\dbms\dbms\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+C:\Git\DBMS\FridayMehak\dbms\dbms\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Git\DBMS\FridayMehak\dbms\dbms\bin\Microsoft.Owin.dll
+C:\Git\DBMS\FridayMehak\dbms\dbms\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Git\DBMS\FridayMehak\dbms\dbms\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Git\DBMS\FridayMehak\dbms\dbms\bin\Microsoft.Owin.Security.dll
+C:\Git\DBMS\FridayMehak\dbms\dbms\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Git\DBMS\FridayMehak\dbms\dbms\bin\Microsoft.Owin.Security.Google.dll
+C:\Git\DBMS\FridayMehak\dbms\dbms\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Git\DBMS\FridayMehak\dbms\dbms\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Git\DBMS\FridayMehak\dbms\dbms\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Git\DBMS\FridayMehak\dbms\dbms\bin\Microsoft.ScriptManager.MSAjax.dll
+C:\Git\DBMS\FridayMehak\dbms\dbms\bin\Microsoft.ScriptManager.WebForms.dll
+C:\Git\DBMS\FridayMehak\dbms\dbms\bin\Microsoft.Web.Infrastructure.dll
+C:\Git\DBMS\FridayMehak\dbms\dbms\bin\Newtonsoft.Json.dll
+C:\Git\DBMS\FridayMehak\dbms\dbms\bin\Owin.dll
+C:\Git\DBMS\FridayMehak\dbms\dbms\bin\System.Web.Optimization.dll
+C:\Git\DBMS\FridayMehak\dbms\dbms\bin\System.Web.Providers.dll
+C:\Git\DBMS\FridayMehak\dbms\dbms\bin\WebGrease.dll
+C:\Git\DBMS\FridayMehak\dbms\dbms\bin\Microsoft.AI.DependencyCollector.xml
+C:\Git\DBMS\FridayMehak\dbms\dbms\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Git\DBMS\FridayMehak\dbms\dbms\bin\Microsoft.AI.Web.xml
+C:\Git\DBMS\FridayMehak\dbms\dbms\bin\Microsoft.AI.WindowsServer.xml
+C:\Git\DBMS\FridayMehak\dbms\dbms\bin\Microsoft.ApplicationInsights.xml
+C:\Git\DBMS\FridayMehak\dbms\dbms\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Git\DBMS\FridayMehak\dbms\dbms\bin\System.Web.Optimization.xml
+C:\Git\DBMS\FridayMehak\dbms\dbms\bin\Antlr3.Runtime.pdb
+C:\Git\DBMS\FridayMehak\dbms\dbms\bin\Newtonsoft.Json.xml
+C:\Git\DBMS\FridayMehak\dbms\dbms\bin\Microsoft.AspNet.FriendlyUrls.xml
+C:\Git\DBMS\FridayMehak\dbms\dbms\bin\EntityFramework.xml
+C:\Git\DBMS\FridayMehak\dbms\dbms\bin\EntityFramework.SqlServer.xml
+C:\Git\DBMS\FridayMehak\dbms\dbms\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Git\DBMS\FridayMehak\dbms\dbms\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Git\DBMS\FridayMehak\dbms\dbms\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Git\DBMS\FridayMehak\dbms\dbms\bin\System.Web.Providers.xml
+C:\Git\DBMS\FridayMehak\dbms\dbms\bin\Microsoft.Owin.xml
+C:\Git\DBMS\FridayMehak\dbms\dbms\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Git\DBMS\FridayMehak\dbms\dbms\bin\Microsoft.Owin.Security.xml
+C:\Git\DBMS\FridayMehak\dbms\dbms\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Git\DBMS\FridayMehak\dbms\dbms\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Git\DBMS\FridayMehak\dbms\dbms\bin\Microsoft.Owin.Security.Google.xml
+C:\Git\DBMS\FridayMehak\dbms\dbms\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Git\DBMS\FridayMehak\dbms\dbms\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Git\DBMS\FridayMehak\dbms\dbms\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Git\DBMS\FridayMehak\dbms\dbms\obj\Debug\dbms.dll
+C:\Git\DBMS\FridayMehak\dbms\dbms\obj\Debug\dbms.pdb
+C:\Git\DBMS\FridayMehak\dbms\dbms\obj\Debug\dbms.csprojResolveAssemblyReference.cache
+C:\Users\anumt\Downloads\New folder\DBMS\FridayMehak\dbms\dbms\bin\ApplicationInsights.config
+C:\Users\anumt\Downloads\New folder\DBMS\FridayMehak\dbms\dbms\bin\roslyn\csc.exe
+C:\Users\anumt\Downloads\New folder\DBMS\FridayMehak\dbms\dbms\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\anumt\Downloads\New folder\DBMS\FridayMehak\dbms\dbms\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\anumt\Downloads\New folder\DBMS\FridayMehak\dbms\dbms\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\anumt\Downloads\New folder\DBMS\FridayMehak\dbms\dbms\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\anumt\Downloads\New folder\DBMS\FridayMehak\dbms\dbms\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\anumt\Downloads\New folder\DBMS\FridayMehak\dbms\dbms\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\anumt\Downloads\New folder\DBMS\FridayMehak\dbms\dbms\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\anumt\Downloads\New folder\DBMS\FridayMehak\dbms\dbms\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\anumt\Downloads\New folder\DBMS\FridayMehak\dbms\dbms\bin\roslyn\vbc.exe
+C:\Users\anumt\Downloads\New folder\DBMS\FridayMehak\dbms\dbms\bin\roslyn\VBCSCompiler.exe
+C:\Users\anumt\Downloads\New folder\DBMS\FridayMehak\dbms\dbms\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\anumt\Downloads\New folder\DBMS\FridayMehak\dbms\dbms\bin\dbms.dll.config
+C:\Users\anumt\Downloads\New folder\DBMS\FridayMehak\dbms\dbms\bin\dbms.dll
+C:\Users\anumt\Downloads\New folder\DBMS\FridayMehak\dbms\dbms\bin\dbms.pdb
+C:\Users\anumt\Downloads\New folder\DBMS\FridayMehak\dbms\dbms\bin\Antlr3.Runtime.dll
+C:\Users\anumt\Downloads\New folder\DBMS\FridayMehak\dbms\dbms\bin\AspNet.ScriptManager.bootstrap.dll
+C:\Users\anumt\Downloads\New folder\DBMS\FridayMehak\dbms\dbms\bin\AspNet.ScriptManager.jQuery.dll
+C:\Users\anumt\Downloads\New folder\DBMS\FridayMehak\dbms\dbms\bin\EntityFramework.dll
+C:\Users\anumt\Downloads\New folder\DBMS\FridayMehak\dbms\dbms\bin\EntityFramework.SqlServer.dll
+C:\Users\anumt\Downloads\New folder\DBMS\FridayMehak\dbms\dbms\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\anumt\Downloads\New folder\DBMS\FridayMehak\dbms\dbms\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\anumt\Downloads\New folder\DBMS\FridayMehak\dbms\dbms\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\anumt\Downloads\New folder\DBMS\FridayMehak\dbms\dbms\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\anumt\Downloads\New folder\DBMS\FridayMehak\dbms\dbms\bin\Microsoft.AI.Web.dll
+C:\Users\anumt\Downloads\New folder\DBMS\FridayMehak\dbms\dbms\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\anumt\Downloads\New folder\DBMS\FridayMehak\dbms\dbms\bin\Microsoft.ApplicationInsights.dll
+C:\Users\anumt\Downloads\New folder\DBMS\FridayMehak\dbms\dbms\bin\Microsoft.AspNet.FriendlyUrls.dll
+C:\Users\anumt\Downloads\New folder\DBMS\FridayMehak\dbms\dbms\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\anumt\Downloads\New folder\DBMS\FridayMehak\dbms\dbms\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\anumt\Downloads\New folder\DBMS\FridayMehak\dbms\dbms\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\anumt\Downloads\New folder\DBMS\FridayMehak\dbms\dbms\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+C:\Users\anumt\Downloads\New folder\DBMS\FridayMehak\dbms\dbms\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\anumt\Downloads\New folder\DBMS\FridayMehak\dbms\dbms\bin\Microsoft.Owin.dll
+C:\Users\anumt\Downloads\New folder\DBMS\FridayMehak\dbms\dbms\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\anumt\Downloads\New folder\DBMS\FridayMehak\dbms\dbms\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\anumt\Downloads\New folder\DBMS\FridayMehak\dbms\dbms\bin\Microsoft.Owin.Security.dll
+C:\Users\anumt\Downloads\New folder\DBMS\FridayMehak\dbms\dbms\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\anumt\Downloads\New folder\DBMS\FridayMehak\dbms\dbms\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\anumt\Downloads\New folder\DBMS\FridayMehak\dbms\dbms\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\anumt\Downloads\New folder\DBMS\FridayMehak\dbms\dbms\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\anumt\Downloads\New folder\DBMS\FridayMehak\dbms\dbms\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\anumt\Downloads\New folder\DBMS\FridayMehak\dbms\dbms\bin\Microsoft.ScriptManager.MSAjax.dll
+C:\Users\anumt\Downloads\New folder\DBMS\FridayMehak\dbms\dbms\bin\Microsoft.ScriptManager.WebForms.dll
+C:\Users\anumt\Downloads\New folder\DBMS\FridayMehak\dbms\dbms\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\anumt\Downloads\New folder\DBMS\FridayMehak\dbms\dbms\bin\Newtonsoft.Json.dll
+C:\Users\anumt\Downloads\New folder\DBMS\FridayMehak\dbms\dbms\bin\Owin.dll
+C:\Users\anumt\Downloads\New folder\DBMS\FridayMehak\dbms\dbms\bin\System.Web.Optimization.dll
+C:\Users\anumt\Downloads\New folder\DBMS\FridayMehak\dbms\dbms\bin\System.Web.Providers.dll
+C:\Users\anumt\Downloads\New folder\DBMS\FridayMehak\dbms\dbms\bin\WebGrease.dll
+C:\Users\anumt\Downloads\New folder\DBMS\FridayMehak\dbms\dbms\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\anumt\Downloads\New folder\DBMS\FridayMehak\dbms\dbms\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\anumt\Downloads\New folder\DBMS\FridayMehak\dbms\dbms\bin\Microsoft.AI.Web.xml
+C:\Users\anumt\Downloads\New folder\DBMS\FridayMehak\dbms\dbms\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\anumt\Downloads\New folder\DBMS\FridayMehak\dbms\dbms\bin\Microsoft.ApplicationInsights.xml
+C:\Users\anumt\Downloads\New folder\DBMS\FridayMehak\dbms\dbms\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\anumt\Downloads\New folder\DBMS\FridayMehak\dbms\dbms\bin\System.Web.Optimization.xml
+C:\Users\anumt\Downloads\New folder\DBMS\FridayMehak\dbms\dbms\bin\Antlr3.Runtime.pdb
+C:\Users\anumt\Downloads\New folder\DBMS\FridayMehak\dbms\dbms\bin\Newtonsoft.Json.xml
+C:\Users\anumt\Downloads\New folder\DBMS\FridayMehak\dbms\dbms\bin\Microsoft.AspNet.FriendlyUrls.xml
+C:\Users\anumt\Downloads\New folder\DBMS\FridayMehak\dbms\dbms\bin\EntityFramework.xml
+C:\Users\anumt\Downloads\New folder\DBMS\FridayMehak\dbms\dbms\bin\EntityFramework.SqlServer.xml
+C:\Users\anumt\Downloads\New folder\DBMS\FridayMehak\dbms\dbms\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\anumt\Downloads\New folder\DBMS\FridayMehak\dbms\dbms\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\anumt\Downloads\New folder\DBMS\FridayMehak\dbms\dbms\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\anumt\Downloads\New folder\DBMS\FridayMehak\dbms\dbms\bin\System.Web.Providers.xml
+C:\Users\anumt\Downloads\New folder\DBMS\FridayMehak\dbms\dbms\bin\Microsoft.Owin.xml
+C:\Users\anumt\Downloads\New folder\DBMS\FridayMehak\dbms\dbms\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\anumt\Downloads\New folder\DBMS\FridayMehak\dbms\dbms\bin\Microsoft.Owin.Security.xml
+C:\Users\anumt\Downloads\New folder\DBMS\FridayMehak\dbms\dbms\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\anumt\Downloads\New folder\DBMS\FridayMehak\dbms\dbms\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\anumt\Downloads\New folder\DBMS\FridayMehak\dbms\dbms\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\anumt\Downloads\New folder\DBMS\FridayMehak\dbms\dbms\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\anumt\Downloads\New folder\DBMS\FridayMehak\dbms\dbms\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\anumt\Downloads\New folder\DBMS\FridayMehak\dbms\dbms\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\anumt\Downloads\New folder\DBMS\FridayMehak\dbms\dbms\obj\Debug\dbms.csprojResolveAssemblyReference.cache
+C:\Users\anumt\Downloads\New folder\DBMS\FridayMehak\dbms\dbms\obj\Debug\dbms.dll
+C:\Users\anumt\Downloads\New folder\DBMS\FridayMehak\dbms\dbms\obj\Debug\dbms.pdb
+C:\Users\anumt\OneDrive\Desktop\TuesdayClone\DBMS\FridayMehak\dbms\dbms\obj\Debug\dbms.csprojResolveAssemblyReference.cache
+C:\Users\anumt\OneDrive\Desktop\TuesdayClone\DBMS\FridayMehak\dbms\dbms\obj\Debug\dbms.dll
+C:\Users\anumt\OneDrive\Desktop\TuesdayClone\DBMS\FridayMehak\dbms\dbms\obj\Debug\dbms.pdb
+C:\Users\anumt\OneDrive\Desktop\TuesdayClone\DBMS\FridayMehak\dbms\dbms\bin\ApplicationInsights.config
+C:\Users\anumt\OneDrive\Desktop\TuesdayClone\DBMS\FridayMehak\dbms\dbms\bin\roslyn\csc.exe
+C:\Users\anumt\OneDrive\Desktop\TuesdayClone\DBMS\FridayMehak\dbms\dbms\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\anumt\OneDrive\Desktop\TuesdayClone\DBMS\FridayMehak\dbms\dbms\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\anumt\OneDrive\Desktop\TuesdayClone\DBMS\FridayMehak\dbms\dbms\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\anumt\OneDrive\Desktop\TuesdayClone\DBMS\FridayMehak\dbms\dbms\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\anumt\OneDrive\Desktop\TuesdayClone\DBMS\FridayMehak\dbms\dbms\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\anumt\OneDrive\Desktop\TuesdayClone\DBMS\FridayMehak\dbms\dbms\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\anumt\OneDrive\Desktop\TuesdayClone\DBMS\FridayMehak\dbms\dbms\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\anumt\OneDrive\Desktop\TuesdayClone\DBMS\FridayMehak\dbms\dbms\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\anumt\OneDrive\Desktop\TuesdayClone\DBMS\FridayMehak\dbms\dbms\bin\roslyn\vbc.exe
+C:\Users\anumt\OneDrive\Desktop\TuesdayClone\DBMS\FridayMehak\dbms\dbms\bin\roslyn\VBCSCompiler.exe
+C:\Users\anumt\OneDrive\Desktop\TuesdayClone\DBMS\FridayMehak\dbms\dbms\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\anumt\OneDrive\Desktop\TuesdayClone\DBMS\FridayMehak\dbms\dbms\bin\dbms.dll.config
+C:\Users\anumt\OneDrive\Desktop\TuesdayClone\DBMS\FridayMehak\dbms\dbms\bin\dbms.dll
+C:\Users\anumt\OneDrive\Desktop\TuesdayClone\DBMS\FridayMehak\dbms\dbms\bin\dbms.pdb
+C:\Users\anumt\OneDrive\Desktop\TuesdayClone\DBMS\FridayMehak\dbms\dbms\bin\Antlr3.Runtime.dll
+C:\Users\anumt\OneDrive\Desktop\TuesdayClone\DBMS\FridayMehak\dbms\dbms\bin\AspNet.ScriptManager.bootstrap.dll
+C:\Users\anumt\OneDrive\Desktop\TuesdayClone\DBMS\FridayMehak\dbms\dbms\bin\AspNet.ScriptManager.jQuery.dll
+C:\Users\anumt\OneDrive\Desktop\TuesdayClone\DBMS\FridayMehak\dbms\dbms\bin\CrystalDecisions.CrystalReports.Engine.dll
+C:\Users\anumt\OneDrive\Desktop\TuesdayClone\DBMS\FridayMehak\dbms\dbms\bin\CrystalDecisions.ReportSource.dll
+C:\Users\anumt\OneDrive\Desktop\TuesdayClone\DBMS\FridayMehak\dbms\dbms\bin\CrystalDecisions.Shared.dll
+C:\Users\anumt\OneDrive\Desktop\TuesdayClone\DBMS\FridayMehak\dbms\dbms\bin\EntityFramework.dll
+C:\Users\anumt\OneDrive\Desktop\TuesdayClone\DBMS\FridayMehak\dbms\dbms\bin\EntityFramework.SqlServer.dll
+C:\Users\anumt\OneDrive\Desktop\TuesdayClone\DBMS\FridayMehak\dbms\dbms\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\anumt\OneDrive\Desktop\TuesdayClone\DBMS\FridayMehak\dbms\dbms\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\anumt\OneDrive\Desktop\TuesdayClone\DBMS\FridayMehak\dbms\dbms\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\anumt\OneDrive\Desktop\TuesdayClone\DBMS\FridayMehak\dbms\dbms\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\anumt\OneDrive\Desktop\TuesdayClone\DBMS\FridayMehak\dbms\dbms\bin\Microsoft.AI.Web.dll
+C:\Users\anumt\OneDrive\Desktop\TuesdayClone\DBMS\FridayMehak\dbms\dbms\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\anumt\OneDrive\Desktop\TuesdayClone\DBMS\FridayMehak\dbms\dbms\bin\Microsoft.ApplicationInsights.dll
+C:\Users\anumt\OneDrive\Desktop\TuesdayClone\DBMS\FridayMehak\dbms\dbms\bin\Microsoft.AspNet.FriendlyUrls.dll
+C:\Users\anumt\OneDrive\Desktop\TuesdayClone\DBMS\FridayMehak\dbms\dbms\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\anumt\OneDrive\Desktop\TuesdayClone\DBMS\FridayMehak\dbms\dbms\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\anumt\OneDrive\Desktop\TuesdayClone\DBMS\FridayMehak\dbms\dbms\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\anumt\OneDrive\Desktop\TuesdayClone\DBMS\FridayMehak\dbms\dbms\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+C:\Users\anumt\OneDrive\Desktop\TuesdayClone\DBMS\FridayMehak\dbms\dbms\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\anumt\OneDrive\Desktop\TuesdayClone\DBMS\FridayMehak\dbms\dbms\bin\Microsoft.Owin.dll
+C:\Users\anumt\OneDrive\Desktop\TuesdayClone\DBMS\FridayMehak\dbms\dbms\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\anumt\OneDrive\Desktop\TuesdayClone\DBMS\FridayMehak\dbms\dbms\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\anumt\OneDrive\Desktop\TuesdayClone\DBMS\FridayMehak\dbms\dbms\bin\Microsoft.Owin.Security.dll
+C:\Users\anumt\OneDrive\Desktop\TuesdayClone\DBMS\FridayMehak\dbms\dbms\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\anumt\OneDrive\Desktop\TuesdayClone\DBMS\FridayMehak\dbms\dbms\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\anumt\OneDrive\Desktop\TuesdayClone\DBMS\FridayMehak\dbms\dbms\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\anumt\OneDrive\Desktop\TuesdayClone\DBMS\FridayMehak\dbms\dbms\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\anumt\OneDrive\Desktop\TuesdayClone\DBMS\FridayMehak\dbms\dbms\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\anumt\OneDrive\Desktop\TuesdayClone\DBMS\FridayMehak\dbms\dbms\bin\Microsoft.ScriptManager.MSAjax.dll
+C:\Users\anumt\OneDrive\Desktop\TuesdayClone\DBMS\FridayMehak\dbms\dbms\bin\Microsoft.ScriptManager.WebForms.dll
+C:\Users\anumt\OneDrive\Desktop\TuesdayClone\DBMS\FridayMehak\dbms\dbms\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\anumt\OneDrive\Desktop\TuesdayClone\DBMS\FridayMehak\dbms\dbms\bin\Newtonsoft.Json.dll
+C:\Users\anumt\OneDrive\Desktop\TuesdayClone\DBMS\FridayMehak\dbms\dbms\bin\Owin.dll
+C:\Users\anumt\OneDrive\Desktop\TuesdayClone\DBMS\FridayMehak\dbms\dbms\bin\System.Web.Optimization.dll
+C:\Users\anumt\OneDrive\Desktop\TuesdayClone\DBMS\FridayMehak\dbms\dbms\bin\System.Web.Providers.dll
+C:\Users\anumt\OneDrive\Desktop\TuesdayClone\DBMS\FridayMehak\dbms\dbms\bin\WebGrease.dll
+C:\Users\anumt\OneDrive\Desktop\TuesdayClone\DBMS\FridayMehak\dbms\dbms\bin\CrystalDecisions.ReportAppServer.DataDefModel.dll
+C:\Users\anumt\OneDrive\Desktop\TuesdayClone\DBMS\FridayMehak\dbms\dbms\bin\CrystalDecisions.ReportAppServer.ClientDoc.dll
+C:\Users\anumt\OneDrive\Desktop\TuesdayClone\DBMS\FridayMehak\dbms\dbms\bin\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+C:\Users\anumt\OneDrive\Desktop\TuesdayClone\DBMS\FridayMehak\dbms\dbms\bin\CrystalDecisions.ReportAppServer.Controllers.dll
+C:\Users\anumt\OneDrive\Desktop\TuesdayClone\DBMS\FridayMehak\dbms\dbms\bin\CrystalDecisions.ReportAppServer.CommLayer.dll
+C:\Users\anumt\OneDrive\Desktop\TuesdayClone\DBMS\FridayMehak\dbms\dbms\bin\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+C:\Users\anumt\OneDrive\Desktop\TuesdayClone\DBMS\FridayMehak\dbms\dbms\bin\CrystalDecisions.ReportAppServer.Prompting.dll
+C:\Users\anumt\OneDrive\Desktop\TuesdayClone\DBMS\FridayMehak\dbms\dbms\bin\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+C:\Users\anumt\OneDrive\Desktop\TuesdayClone\DBMS\FridayMehak\dbms\dbms\bin\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+C:\Users\anumt\OneDrive\Desktop\TuesdayClone\DBMS\FridayMehak\dbms\dbms\bin\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+C:\Users\anumt\OneDrive\Desktop\TuesdayClone\DBMS\FridayMehak\dbms\dbms\bin\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+C:\Users\anumt\OneDrive\Desktop\TuesdayClone\DBMS\FridayMehak\dbms\dbms\bin\CrystalDecisions.ReportAppServer.CommonControls.dll
+C:\Users\anumt\OneDrive\Desktop\TuesdayClone\DBMS\FridayMehak\dbms\dbms\bin\stdole.dll
+C:\Users\anumt\OneDrive\Desktop\TuesdayClone\DBMS\FridayMehak\dbms\dbms\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\anumt\OneDrive\Desktop\TuesdayClone\DBMS\FridayMehak\dbms\dbms\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\anumt\OneDrive\Desktop\TuesdayClone\DBMS\FridayMehak\dbms\dbms\bin\Microsoft.AI.Web.xml
+C:\Users\anumt\OneDrive\Desktop\TuesdayClone\DBMS\FridayMehak\dbms\dbms\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\anumt\OneDrive\Desktop\TuesdayClone\DBMS\FridayMehak\dbms\dbms\bin\Microsoft.ApplicationInsights.xml
+C:\Users\anumt\OneDrive\Desktop\TuesdayClone\DBMS\FridayMehak\dbms\dbms\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\anumt\OneDrive\Desktop\TuesdayClone\DBMS\FridayMehak\dbms\dbms\bin\System.Web.Optimization.xml
+C:\Users\anumt\OneDrive\Desktop\TuesdayClone\DBMS\FridayMehak\dbms\dbms\bin\Antlr3.Runtime.pdb
+C:\Users\anumt\OneDrive\Desktop\TuesdayClone\DBMS\FridayMehak\dbms\dbms\bin\Newtonsoft.Json.xml
+C:\Users\anumt\OneDrive\Desktop\TuesdayClone\DBMS\FridayMehak\dbms\dbms\bin\Microsoft.AspNet.FriendlyUrls.xml
+C:\Users\anumt\OneDrive\Desktop\TuesdayClone\DBMS\FridayMehak\dbms\dbms\bin\EntityFramework.xml
+C:\Users\anumt\OneDrive\Desktop\TuesdayClone\DBMS\FridayMehak\dbms\dbms\bin\EntityFramework.SqlServer.xml
+C:\Users\anumt\OneDrive\Desktop\TuesdayClone\DBMS\FridayMehak\dbms\dbms\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\anumt\OneDrive\Desktop\TuesdayClone\DBMS\FridayMehak\dbms\dbms\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\anumt\OneDrive\Desktop\TuesdayClone\DBMS\FridayMehak\dbms\dbms\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\anumt\OneDrive\Desktop\TuesdayClone\DBMS\FridayMehak\dbms\dbms\bin\System.Web.Providers.xml
+C:\Users\anumt\OneDrive\Desktop\TuesdayClone\DBMS\FridayMehak\dbms\dbms\bin\Microsoft.Owin.xml
+C:\Users\anumt\OneDrive\Desktop\TuesdayClone\DBMS\FridayMehak\dbms\dbms\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\anumt\OneDrive\Desktop\TuesdayClone\DBMS\FridayMehak\dbms\dbms\bin\Microsoft.Owin.Security.xml
+C:\Users\anumt\OneDrive\Desktop\TuesdayClone\DBMS\FridayMehak\dbms\dbms\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\anumt\OneDrive\Desktop\TuesdayClone\DBMS\FridayMehak\dbms\dbms\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\anumt\OneDrive\Desktop\TuesdayClone\DBMS\FridayMehak\dbms\dbms\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\anumt\OneDrive\Desktop\TuesdayClone\DBMS\FridayMehak\dbms\dbms\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\anumt\OneDrive\Desktop\TuesdayClone\DBMS\FridayMehak\dbms\dbms\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\anumt\OneDrive\Desktop\TuesdayClone\DBMS\FridayMehak\dbms\dbms\bin\Microsoft.Owin.Security.OAuth.xml

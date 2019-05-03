@@ -18,7 +18,7 @@ namespace dbms
 
         SqlDataAdapter adapt;
         DataTable dt;
-        SqlConnection conn = new SqlConnection(@"Data Source=DESKTOP-DOTOD0U\SQLEXPRESS;Initial Catalog=DB6;Integrated Security=True");
+        SqlConnection conn = new SqlConnection(@"Data Source=HAIER-PC\SQLEXPRESS;Initial Catalog=DB6;Integrated Security=True");
 
         protected void Button1_Click(object sender, EventArgs e)
         {
